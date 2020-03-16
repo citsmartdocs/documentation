@@ -70,7 +70,7 @@ Related
 
 !!! tip "About"
 
-    <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
+    <b>Product/Version:</b> CITSmart | 9.00 &nbsp;&nbsp;
     <b>Updated:</b>01/17/2019 – Anna Martins
 
 [1]:/en-us/citsmart-platform-8/processes/tickets/images/rotina-verificar-email.docx

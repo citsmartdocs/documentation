@@ -1,10 +1,10 @@
-Title: What's new in CITSmart 8.0?
-Description: It describes what is new in CITSmart 8.0
+Title: What's new in CITSmart 9.0?
+Description: It describes what is new in CITSmart 9.0
 
 What's new on CITSmart?
 =================================
 
-## Versão 8.0.2.0
+## Version 9.0.2.0
 
 ### EXPERIENCE CENTER
 
@@ -36,7 +36,7 @@ What's new on CITSmart?
 
 - Improvement in the performance and functionality of Smart chat that allow besides the communication between attendant and requester, the communication between attendants;
 
-## Version 8.0
+## Version 9.0
 
 Logo and Login Usage
 ------------------------
@@ -387,5 +387,5 @@ For further information access the documentation about [Mobile CITSmart Experien
 
 !!! tip "About"
 
-    <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
+    <b>Product/Version:</b> CITSmart | 9.00 &nbsp;&nbsp;
     <b>Created:</b>03/14/2019 - André Fernandes

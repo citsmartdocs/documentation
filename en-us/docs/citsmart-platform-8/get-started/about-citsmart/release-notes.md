@@ -3,16 +3,16 @@ Description: Release notes, policies information, bug fixes and improvements in 
 
 # Release Notes
 
-## Version 8.0.5.4 (2020/02/28)
-Welcome to Citsmart Version 8.0.5.4. This version presents the following improvements:
+## Version 9.0.5.4 (2020/02/28)
+Welcome to Citsmart Version 9.0.5.4. This version presents the following improvements:
 
 |Fix|Fix/Improvement/New|Functionality|Description|
 |--------|---------|---------|---------|
 |Ticket 3599|Fix|Ticket Management|When reopening a Ticket via Smart Portal you can add a Note on it.|
 |Ticket 3551|Improvement|Ticket Management/Workflow|It was created an email key to send date and time of the last execution in the flow.|
 
-## Version 8.0.5.3 (2020/02/27)
-Welcome to Citsmart Version 8.0.5.3. This version has the following improvements:
+## Version 9.0.5.3 (2020/02/27)
+Welcome to Citsmart Version 9.0.5.3. This version has the following improvements:
 
 |Fix|Fix/Improvement/New|Functionality|Description|
 |--------|---------|---------|---------|
@@ -20,8 +20,8 @@ Welcome to Citsmart Version 8.0.5.3. This version has the following improvements
 |Ticket 3581|Improvement|WebService|Updated to create an instance via WebService in a Ticket.|
 |Ticket 3604|Fix|Event Management|Fix performed in the Generic Manager Zabixx/Nagios to enable the automatic correction option.|
 
-## Version 8.0.5.2 (2020/02/18)
-Welcome to Citsmart Version 8.0.5.2. This release has the following improvements:
+## Version 9.0.5.2 (2020/02/18)
+Welcome to Citsmart Version 9.0.5.2. This release has the following improvements:
 
 |Improvement|Fix/Improvement/New|Functionality|Description|
 |--------|---------|---------|---------|
@@ -33,8 +33,8 @@ Welcome to Citsmart Version 8.0.5.2. This release has the following improvements
 
 Neuro: 1.3.3.3
 
-## Version 8.0.5.1 (2020/02/10)
-Welcome to Citsmart Version 8.0.5.1. This release has the following improvements:
+## Version 9.0.5.1 (2020/02/10)
+Welcome to Citsmart Version 9.0.5.1. This release has the following improvements:
 
 |Improvement|Functionality|Description|
 |--------|---------|---------|
@@ -44,10 +44,10 @@ Welcome to Citsmart Version 8.0.5.1. This release has the following improvements
 |6739|WorksPlace| Adjust in the Worksplace Widget to display information correctly.|
 |6247|Ticket Management | Adjustments made in the ticket approvals.|
 
-Version 8.0.5.0 (2020/01/27)
+Version 9.0.5.0 (2020/01/27)
 ---------------------------
 
-Welcome to CITSmart Version 8.0.5.0. This release has the following
+Welcome to CITSmart Version 9.0.5.0. This release has the following
 improvements:
 
 | Improvement | Functionality        | Description                                                                                                                                 |
@@ -66,7 +66,7 @@ improvements:
 | 6399        | CMDB                 | Creation of the CMDB Map to allow graphical visualization of the entire managed environment.                                                |
 | 6386        | Knowledge Management | Improvement to add new action of 'Delete' in the knowledge folder                                                                           |
 
-Version 8.0.5.0. has the following fixes
+Version 9.0.5.0. has the following fixes
 
 | Fix  | Functionality                                                                                   | Description                                                                                                                                               |
 |------|-------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -96,25 +96,25 @@ Version 8.0.5.0. has the following fixes
     Knowledge Base improvements have not been implemented in an Oracle database.
 
 
-## Version 8.0.4.5 (2020/01/14)
+## Version 9.0.4.5 (2020/01/14)
 
-Welcome to Citsmart Version 8.0.4.5. This release has the following fixes:
+Welcome to Citsmart Version 9.0.4.5. This release has the following fixes:
 
 |Fix	| Functionality	| Description |
 |--------|---------|---------|
 |3074 | Web Service | Adjustments in the automatic closure of tickets via WebService.|
 
-## Version 8.0.4.4 (2019/12/19)
+## Version 9.0.4.4 (2019/12/19)
 
-Welcome to Citsmart Version 8.0.4.4. This release has the following fixes:
+Welcome to Citsmart Version 9.0.4.4. This release has the following fixes:
 
 |Fix	| Functionality	| Description |
 |--------|---------|---------|
 |ITSM 2652 | Knowledge Base Maintenance Report | Fix in the knowledge base maintenance report where information was duplicated.|
 
-## Version 8.0.4.3 (2019/12/18)
+## Version 9.0.4.3 (2019/12/18)
 
-Welcome to Citsmart Version 8.0.4.3. This release has the following fixes:
+Welcome to Citsmart Version 9.0.4.3. This release has the following fixes:
 
 |Fix	| Functionality	| Description |
 |--------|---------|---------|
@@ -122,9 +122,9 @@ Welcome to Citsmart Version 8.0.4.3. This release has the following fixes:
 | [ITSM-2995] | WEBSERVICES |Fix when closing a ticket via webservice. The ticket was leaving the Solution/Response field blank, and with no responsible.
 | [ITSM-2960] | Ticket Management | A corrective fix was implemented  where when executing a ticket, the service and activity corresponding to it was not being presented. What was being presented was the portfolio selection stage.|
 
-## Version 8.0.4.2 (2019/12/12)
+## Version 9.0.4.2 (2019/12/12)
 
-Welcome to Citsmart Version 8.0.4.2. This release has the following fixes:
+Welcome to Citsmart Version 9.0.4.2. This release has the following fixes:
 
 |Fix	| Functionality	| Description |
 |--------|---------|---------|
@@ -132,9 +132,9 @@ Welcome to Citsmart Version 8.0.4.2. This release has the following fixes:
 |6277|Ticket Management|Fix when sending an attached text document to open the ticket via email, it was placing this attachment description in the ticket description.|
 |6334|Ticket Management|Fix in the application when parameter 446 was enabled, and when closing the ticket and it had an attachment, the closure email is not sent with that attachment.|
 
-## Version 8.0.4.0 (2019/11/30)
+## Version 9.0.4.0 (2019/11/30)
 
-Welcome to Citsmart Version 8.0.4.0. This release has the following fixes and improvements:
+Welcome to Citsmart Version 9.0.4.0. This release has the following fixes and improvements:
 
 |Improvement	| Functionality	| Description |
 |--------|---------|---------|
@@ -165,9 +165,9 @@ Welcome to Citsmart Version 8.0.4.0. This release has the following fixes and im
     6274 - Tickets with a status of "Canceled" in the floating menu show incorrect actions by the status of the ticket.
     6275 - #5544 - Facebook-Messenger error when closing or canceling a ticket created via Facebook Messenger. It still shows the chat icon in the list of "Tickets in progress" and does not open another ticket for this same Messenger requester.
 
-## Version 8.0.3.0 (2019/11/01)
+## Version 9.0.3.0 (2019/11/01)
 
-Welcome to CITSmart Version 8.0.3.0. This release has the following fixes and improvements:
+Welcome to CITSmart Version 9.0.3.0. This release has the following fixes and improvements:
 
 |Item|Description|
 |--------|---------|
@@ -208,9 +208,9 @@ Welcome to CITSmart Version 8.0.3.0. This release has the following fixes and im
 |6054|Adding the "Import discontinued template data" option|
 |6071|Changing impact and urgency columns to accept 2 characters as per bank structure for priority matrix|
 
-## Version 8.0.2.0 (2019/10/07)
+## Version 9.0.2.0 (2019/10/07)
 
-Welcome to CITSmart Version 8.0.2.0. This release has the following fixes and improvements:
+Welcome to CITSmart Version 9.0.2.0. This release has the following fixes and improvements:
 
 |Item|Description|
 |--------|---------|
@@ -263,10 +263,10 @@ Welcome to CITSmart Version 8.0.2.0. This release has the following fixes and im
 
 
 !!! info ""
-    In version 8.0.2.0, the parameter 299 - Ticket - Enable message exchange has been retired because the messaging functionality has been replaced by the Chat. The histories are kept in the occurrence histories.
+    In version 9.0.2.0, the parameter 299 - Ticket - Enable message exchange has been retired because the messaging functionality has been replaced by the Chat. The histories are kept in the occurrence histories.
 
 !!! info ""
-    In version 8.0.2.0 in the ticket list we insert the possibility of appearing the field "Description". In order to view this field, the user must follow the procedures:
+    In version 9.0.2.0 in the ticket list we insert the possibility of appearing the field "Description". In order to view this field, the user must follow the procedures:
 
     1.	Clean cookies;
 
@@ -276,36 +276,36 @@ Welcome to CITSmart Version 8.0.2.0. This release has the following fixes and im
 
     Chat communication in this version is most effective when done in the same browser, if a requester and an attendant are in different browsers, there may be a long delay in message exchange.
 
-    For a better experience of the CITSmart version 8.0.2.0, we advise that the “my requests” and “my approvals” widgets to be replaced by the “my tickets” widget in the customers Experience Centers.
+    For a better experience of the CITSmart version 9.0.2.0, we advise that the “my requests” and “my approvals” widgets to be replaced by the “my tickets” widget in the customers Experience Centers.
 
-## Version 8.0.1.7 (2019/09/13)
+## Version 9.0.1.7 (2019/09/13)
 
-Welcome to CITSmart Version 8.0.1.7. This release has the following fixes:
+Welcome to CITSmart Version 9.0.1.7. This release has the following fixes:
 
 |Item|Description|
 |--------|---------|
 |5569|[ITSM 1652] – Failure in the Simple of Problem, Change and Release when creating a Workspace, the sprints overwrite themselves.|
 
-## Version 8.0.1.6 (2019/09/11)
+## Version 9.0.1.6 (2019/09/11)
 
-Welcome to CITSmart Version 8.0.1.6. This release has the following fixes:
+Welcome to CITSmart Version 9.0.1.6. This release has the following fixes:
 
 |Item|Description|
 |--------|---------|
 |5288|Safety – Do not make system users password visible|
 |5272|Safety – Do not allow access to the Script screen without logging in to the application|
 
-## Version 8.0.1.5 (2019/09/02)
+## Version 9.0.1.5 (2019/09/02)
 
-Welcome to CITSmart Version 8.0.1.5. This release has the following fixes:
+Welcome to CITSmart Version 9.0.1.5. This release has the following fixes:
 
 |Item|Description|
 |--------|---------|
 |5407|Simple – Functionality did not allow downloading attachments from Simple cards|
 
-## Version 8.0.1.4 (2019/08/20)
+## Version 9.0.1.4 (2019/08/20)
 
-Welcome to CITSmart Version 8.0.1.4. This release has the following fixes:
+Welcome to CITSmart Version 9.0.1.4. This release has the following fixes:
 
 |Item|Description|
 |--------|---------|
@@ -350,12 +350,12 @@ Welcome to CITSmart Version 8.0.1.4. This release has the following fixes:
 
 **Note:**
 
-In version 8.0.1.4 the “Description” field of the service request attendance screen will be blocked after the creation of a ticket.
+In version 9.0.1.4 the “Description” field of the service request attendance screen will be blocked after the creation of a ticket.
 
 
-## Version 8.0.1.3 (2019/07/31)
+## Version 9.0.1.3 (2019/07/31)
 
-Welcome to Citsmart Version 8.0.1.3. This release has the following fixes and improvements:
+Welcome to Citsmart Version 9.0.1.3. This release has the following fixes and improvements:
 
 |Item|Description|
 |--------|---------|
@@ -410,14 +410,14 @@ Welcome to Citsmart Version 8.0.1.3. This release has the following fixes and im
 
 **Note:**
 
-In version 8.0.1.3 the parameter “452 - Continue in the Ticket screen after saving?” was created. This parameter, when enabled, checks the user's permission to execute a ticket and allows the screen to remain..
+In version 9.0.1.3 the parameter “452 - Continue in the Ticket screen after saving?” was created. This parameter, when enabled, checks the user's permission to execute a ticket and allows the screen to remain..
 
-In version 8.0.1.3 the parameter “451 - Redirect page after saving the ticket in the Experience Center” was created, which allows informing the page that the user wants to return when an action in the Experience Center occurs.
+In version 9.0.1.3 the parameter “451 - Redirect page after saving the ticket in the Experience Center” was created, which allows informing the page that the user wants to return when an action in the Experience Center occurs.
 
 
-## Version 8.0.1.2 (2019/07/20)
+## Version 9.0.1.2 (2019/07/20)
 
-Welcome to the Citsmart Version 8.0.1.2. This version presents the following fixes.
+Welcome to the Citsmart Version 9.0.1.2. This version presents the following fixes.
 
 |Problem|Description|
 |-------|-----------|
@@ -425,11 +425,11 @@ Welcome to the Citsmart Version 8.0.1.2. This version presents the following fix
 |4537|Error in the LDAP synchronization|
 |4733|Slowness in Smart Portal when there is knowledge related|
 
-From version 8.0.1.2 it was inserted the parameter “454 - Display the smart portal knowledge tab only when there is content” this parameter controls the display of the Knowledge Tab in Smart Portal only when there is knowledge linked to the Activity, if it does not exist, the system does not display the tab.
+From version 9.0.1.2 it was inserted the parameter “454 - Display the smart portal knowledge tab only when there is content” this parameter controls the display of the Knowledge Tab in Smart Portal only when there is knowledge linked to the Activity, if it does not exist, the system does not display the tab.
 
-## Version 8.0.1.1 (2019/07/15)
+## Version 9.0.1.1 (2019/07/15)
 
-Welcome to the Citsmart Version 8.0.1.1. This release contains the following fixes.
+Welcome to the Citsmart Version 9.0.1.1. This release contains the following fixes.
 
 |Problem|Description|
 |-------|-----------|
@@ -441,9 +441,9 @@ Welcome to the Citsmart Version 8.0.1.1. This release contains the following fix
 |4168|[My 001] - Error while viewing a ticket by advanced search.|
 |4596|[My 705] - Verifying error in deadline calculation for tickets.|
 
-## Version 8.0.1.0 (2019/06/28)
+## Version 9.0.1.0 (2019/06/28)
 
-Welcome to Citsmart Version 8.0.1.0. The Version 8.0.1.0 of Citsmart presents the following improvements:
+Welcome to Citsmart Version 9.0.1.0. The Version 9.0.1.0 of Citsmart presents the following improvements:
 
 |Improvement|Description|
 |--------|---------|
@@ -470,9 +470,9 @@ Welcome to Citsmart Version 8.0.1.0. The Version 8.0.1.0 of Citsmart presents th
 |3911|Smart Portal - After ticket registration, direct the user to "My Requests".|
 |2615|Simple – Search for unselected items.|
 
-## Version 8.0.0.10 (2019/06/07)
+## Version 9.0.0.10 (2019/06/07)
 
-Welcome to CITSmart Version 8.0.0.10. This release features some emergency fixes.
+Welcome to CITSmart Version 9.0.0.10. This release features some emergency fixes.
 
 | Problem	| Description|
 |-----------|------------|
@@ -483,10 +483,10 @@ Welcome to CITSmart Version 8.0.0.10. This release features some emergency fixes
 |4028	| Correction in the presentation of the responsible person in the registration of an occurrence |
 |4148	| Improvement in the queries of the ticket listing |
 
-## Version 8.0.0.9 (2019/05/31)
+## Version 9.0.0.9 (2019/05/31)
 
-Welcome to the Citsmart Version 8.0.0.9
-Version 8.0.0.9 of CITSmart presents some emergency corrections.
+Welcome to the Citsmart Version 9.0.0.9
+Version 9.0.0.9 of CITSmart presents some emergency corrections.
 
 |Problem |Description|
 |--------|-----------|
@@ -499,7 +499,7 @@ Version 8.0.0.9 of CITSmart presents some emergency corrections.
 |3915|Optimizing SQL list of requests|
 |4038|Correction of image upload in portfolio presentation|
 
-## Version 8.0.0.7 (2019/05/17)
+## Version 9.0.0.7 (2019/05/17)
 
 With performance optimizations, usability improvements, adjustments and bug fixes.
 
@@ -547,7 +547,7 @@ With performance optimizations, usability improvements, adjustments and bug fixe
 | 3669       | It is not being able to create a ticket through the portal when the activity is configured to not display the description field                                                                                                                                       | Corrective   |
 | 3607       | [ITSM-9097] - Handle saving of Neuro form data in Reclassification                                                                                                                                                                                | Corrective   |
 | 3512       | Slow loading a Change/Release/Problem with attachments                                                                                                                                                                                                  | Corrective   |
-| 3506       | Neuro does not automatically install in the migration from ITSM version 7 to 8                                                                                                                                                                                         | Corrective   |
+| 3506       | Neuro does not automatically install in the migration from ITSM version 7 to 9                                                                                                                                                                                         | Corrective   |
 | 3605       | [ITSM 9722] - Translation Error in Report                                                                                                                                                                                                                     | Corrective   |
 | 3602       | [ITSM 9773, 9824] Verify that it is not possible to publish or version a knowledge                                                                                                                                                                | Corrective   |
 | 1602       | Add counter in attachment icon, message and exchange the place of icons                                                                                                                                                                                    | Corrective   |
@@ -590,7 +590,7 @@ Neuro: 1.2.4.10
 
 Audit: 0.4.0
 
-## Version 8.0.0.5 (2019/04/25)
+## Version 9.0.0.5 (2019/04/25)
 
 | Problem  | Description                                                                                                                                              |
 |----------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -614,7 +614,7 @@ Note the following scenario:
 
 -   Preconditions:
 
-    1.  The client will be upgrading from version 7 to version 8.0.0.5;
+    1.  The client will be upgrading from version 7 to version 9.0.0.5;
 
     2.  The consultant did not parametrize in the Problem Portfolio the folder
         to save the Known Error knowledge base;
@@ -656,38 +656,38 @@ EVM: 2.0.0.3
 Audit: 0.2.0
 
 
-## Version 8.0.0.4 (2019/04/12)
+## Version 9.0.0.4 (2019/04/12)
 
 | Problem  | Description                                                                                |
 |----------|--------------------------------------------------------------------------------------------|
 | 3275     | Failure when restoring the Executor Group, Impact and Urgency in the Release Management    |
 
 
-## Version 8.0.0.3 (2019/04/04)
+## Version 9.0.0.3 (2019/04/04)
 
 | Problem | Description                                                                                                                                                                                                          |
 |----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2573     | Known error in version 8.0.0.0 when answering to a satisfaction survey by Experience Center Widget. Version 8.0.0.3 provides a definitive solution to the error while registring a satisfaction survey.     |
-| 2122     | Webservice failed to create service request. Version 8.0.0.3 provides definitive solution to the failure presented when attempting to register a service request via webservice.                      |
-| 2917     | Failed to upload attachments by the service request functionality. Version 8.0.0.3 provides a solution for uploading attachments through the service request functionality.                  |
-| 2777     | Intermittent failure in the method that returns timezone to register the date and hour. In the Neuro component. Version 8.0.0.3 provides definitive solution in the Neuro component to register date and time. |
+| 2573     | Known error in version 9.0.0.0 when answering to a satisfaction survey by Experience Center Widget. Version 9.0.0.3 provides a definitive solution to the error while registring a satisfaction survey.     |
+| 2122     | Webservice failed to create service request. Version 9.0.0.3 provides definitive solution to the failure presented when attempting to register a service request via webservice.                      |
+| 2917     | Failed to upload attachments by the service request functionality. Version 9.0.0.3 provides a solution for uploading attachments through the service request functionality.                  |
+| 2777     | Intermittent failure in the method that returns timezone to register the date and hour. In the Neuro component. Version 9.0.0.3 provides definitive solution in the Neuro component to register date and time. |
 
 
-## Version 8.0.0.2 (2019/03/20)
+## Version 9.0.0.2 (2019/03/20)
 
 | Problem | Description                                                                                                                                                                                                                                                                 |
 |----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2309     | Intermittent failure and of greater incidence in clustered environments in the method that returns timezone to register date and time. Version 8.0.0.2 provides definitive solution to the error that occurs in classes that use timezone for registration. |
-| 2124     | Incorrect validation failure while accessing an external knowledge base. Version 8.0.0.2 provides definitive solution to the session expiration message displayed improperly when the user attempted to access an external knowledge base.                    |
-| 2400     | Failure in the advanced search component that didn't return words with "ç" and "ã". Version 8.0.0.2 provides definitive solution for advanced search with accented words.                                                                                          |
+| 2309     | Intermittent failure and of greater incidence in clustered environments in the method that returns timezone to register date and time. Version 9.0.0.2 provides definitive solution to the error that occurs in classes that use timezone for registration. |
+| 2124     | Incorrect validation failure while accessing an external knowledge base. Version 9.0.0.2 provides definitive solution to the session expiration message displayed improperly when the user attempted to access an external knowledge base.                    |
+| 2400     | Failure in the advanced search component that didn't return words with "ç" and "ã". Version 9.0.0.2 provides definitive solution for advanced search with accented words.                                                                                          |
 
-## Version 8.0.0.1 (2019/03/08)
+## Version 9.0.0.1 (2019/03/08)
 
 | Problem | Description                                                                                                                                                                                      |
 |----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2576     | Known error in the portfolio that is not displayed when there is an end date in the contract service. Version 8.0.0.1 provides a definitive solution to the error caused by the service portfolio. |
+| 2576     | Known error in the portfolio that is not displayed when there is an end date in the contract service. Version 9.0.0.1 provides a definitive solution to the error caused by the service portfolio. |
 
-## Version 8.0.0.0 (2019/03/01)
+## Version 9.0.0.0 (2019/03/01)
 
 |Type|Functionality|Description|
 |----|-------|-----------|
@@ -697,19 +697,19 @@ Audit: 0.2.0
 |Improvements|Quick Access|The quick access allows the user to find main processes through icons that help in the efficiency of fixing and viewing. **The users only sees the icons of the processes that they have access, with the exception of Simple, Knowledge Portal, Experience Center and User Guide.**|
 |Improvements|Ticket Management|We created the possibility of configuring the functionality of email notification in the ticket delegation. For further information, see [Notification via E-mail of Ticket Delegated][3]|
 |Improvements|Ticket Management|We created the possibility of configuring the functionality notification via email reclassification. For further information, see [Notification via email of reclassified ticket][4]|
-|Improvements|Change Management|Version 8.0.0.0 of CITSmart has improvements in the change management process, bringing the agile world to manage the activities that should occur during the scope of the change. **Note:** This functionality replaces the default flow parameters for usage of the change process, moreover, the change is necessary for this configuration. For further information, see [Change Management][5]|
-|Improvements|Problem Management|In version 8.0.0.0 of CITSmar,t the problem management process allows adding activities to assist in the management of teams during the root cause diagnosis. **Note:** This functionality replaces the default flow parameters for usage of the problem process, moreover, the change is necessary for this configuration. For further information, see [Problem Management][6]|
+|Improvements|Change Management|Version 9.0.0.0 of CITSmart has improvements in the change management process, bringing the agile world to manage the activities that should occur during the scope of the change. **Note:** This functionality replaces the default flow parameters for usage of the change process, moreover, the change is necessary for this configuration. For further information, see [Change Management][5]|
+|Improvements|Problem Management|In version 9.0.0.0 of CITSmar,t the problem management process allows adding activities to assist in the management of teams during the root cause diagnosis. **Note:** This functionality replaces the default flow parameters for usage of the problem process, moreover, the change is necessary for this configuration. For further information, see [Problem Management][6]|
 |Improvements|Release Management|The release process is more powerful in planning, testing and approving, allowing the designation of activities and management at sight. **Note:** This functionality replaces the default flow parameters for usage of release process, moreover, the change is necessary for this configuration. For further information, see [Release Management][7]|
-|Improvements|Knowledge Management|In version 8.0.0.0 CITSmart allows the evaluation and publication of written comments about a knowledge. For further information, see [Comments Review][8]|
-|Improvements|Knowledge Management|We innovate the way of access to the knowledge base for users who don't have login to the CITSmart tool. In version 8.0.0.0 knowledge with permission of visualization can be accessed by the community in general, just have the link of access. For further information, see Configure external access to the [Knowledge Portal][9]|
+|Improvements|Knowledge Management|In version 9.0.0.0 CITSmart allows the evaluation and publication of written comments about a knowledge. For further information, see [Comments Review][8]|
+|Improvements|Knowledge Management|We innovate the way of access to the knowledge base for users who don't have login to the CITSmart tool. In version 9.0.0.0 knowledge with permission of visualization can be accessed by the community in general, just have the link of access. For further information, see Configure external access to the [Knowledge Portal][9]|
 |Improvements|Configuration Management|We enhance the user experience by highlighting a dashboard that displays the number of configuration items by group, type, and agglutinated in the Incident, Change, and Release processes, leaving in sight possible CI's that will be changed or involved in some incident. For further information, see [Configuration Item Management][10]|
 |Improvements|Ticket Management|We simplified the use of ticket escalation rules, with a few steps, it'll be possible to implement the rule that previously had numerous configurations. **Note:** This functionality replaces the use of several escalation parameters, moreover, it's necessary to change for the effective use of the escalation rules. For further information, see [Create escalation rule][11]|
-|Improvements|Ticket Management|In version 8.0.0.0 of CITSmart, we included ticket approval through a new direct icon in the attendance list, it's not necessary to open the ticket to perform the attendance, we present the available information and the options configured to accept or refuse the call. This functionality is available on Mobile SM and on the Service Portal. For further information, see [Approve ticket][12]|
+|Improvements|Ticket Management|In version 9.0.0.0 of CITSmart, we included ticket approval through a new direct icon in the attendance list, it's not necessary to open the ticket to perform the attendance, we present the available information and the options configured to accept or refuse the call. This functionality is available on Mobile SM and on the Service Portal. For further information, see [Approve ticket][12]|
 |Improvements|Ticket Management|We allow the automatic ticket list updating function to be enabled to refresh the list automatically from time to time. For further information, see [Automatic Update of Ticket List][13]|
 |Improvements|Ticket Management|The improvement of the occurrence registration allows the requester or technician to be notified via email. In addition to the permission to include activity execution time and keep the information confidential registered, so that only authorized technicians can see it. For further information, see [Register ticket occurrence][14]|
 |Improvements|Integrated Management|Simple was created with the purpose of bringing the concept of agile management to the tool. Independently or clustered in one of the Problem, Change and Release solutions, Simple allows you to reuse Sprints, share resources, send activities to other Sprints and manage at sight. For further information, see [Simple][15]|
 |New|Experience Center|We provide a specific area to improve the user experience. In this area will be allowed the presentation of services, information and reports that come closest to the day-to-day use of the customer. For further information, see [Experience Center][16]|
-|New|Smart analytics|From the version 8.0.0.0, we have provided some quantitative reports of the main processes contained in CITSmart through our new BI platform. For further information, see [Business Intelligence][17]|
+|New|Smart analytics|From the version 9.0.0.0, we have provided some quantitative reports of the main processes contained in CITSmart through our new BI platform. For further information, see [Business Intelligence][17]|
 |New|Audit|We have reformed the system audit to increase the agility and reliability of the audit research feature. For further information, see [System Audit][18]|
 |New|Platform administration|We have improved information security, implementing forms of password security for internal users. For further information, see [Password Security Policy][19]|
 |New|Mobile|We delivered a new application that, in a robust way, allow the field service of technicians who are momentarily without internet connection. The mobility experience goes beyond signature features and notes. For further information, see [Mobile Field Service][20]. Still in the context of mobility, and no less robust, we improved the Mobile SM application, which has among other uses, the ability to sign, approve and notes. For further information, see [Mobile CITSmart Experience application manual][21]|
@@ -720,24 +720,24 @@ Audit: 0.2.0
 
 
 
-[1]:/en-us/citsmart-platform-8/processes/tickets/use/register-ticket-related.html
-[2]:/en-us/citsmart-platform-8/processes/tickets/use/create-and-view-sub-request.html
-[3]:/en-us/citsmart-platform-8/processes/tickets/configuration/notification-delegated-email-ticket.html
-[4]:/en-us/citsmart-platform-8/processes/portfolio-and-catalog/configuration/send-email-reclassified-ticket.html
-[5]:/en-us/citsmart-platform-8/processes/change/overview.html
-[6]:/en-us/citsmart-platform-8/processes/problem/overview.html
-[7]:/en-us/citsmart-platform-8/processes/release/overview.html
-[8]:/en-us/citsmart-platform-8/processes/knowledge/use/review-reviews.html
-[9]:/en-us/citsmart-platform-8/processes/knowledge/configuration/configure-external-access-knowledge-portal.html
-[10]:/en-us/citsmart-platform-8/processes/configuration/overview.html
-[11]:/en-us/citsmart-platform-8/processes/tickets/use/create-escalation-rule.html
-[12]:/en-us/citsmart-platform-8/processes/tickets/use/approve-a-ticket.html
-[13]:/en-us/citsmart-platform-8/processes/tickets/use/desktop-of-service-desk.html
-[14]:/en-us/citsmart-platform-8/processes/tickets/use/register-ticket-occurrences.html
-[15]:/en-us/citsmart-platform-8/additional-features/project-management/simple-agile-management/simple-agile-management.html
-[16]:/en-us/citsmart-platform-8/processes/knowledge/use/create-experience-center.html
-[17]:/en-us/citsmart-platform-8/additional-features/smart-analytics/use-bi-solution.html
-[18]:/en-us/citsmart-platform-8/platform-administration/logs-and-auditing/system-audit.html
-[19]:/en-us/citsmart-platform-8/platform-administration/security/implement-password-security-rules.html
-[20]:/en-us/citsmart-platform-8/additional-features/mobile-and-field-service/apps/citsmart-field-service-manual.html
-[21]:/en-us/citsmart-platform-8/additional-features/mobile-and-field-service/apps/citsmart-app.html
+[1]:/en-us/citsmart-platform-9/processes/tickets/use/register-ticket-related.html
+[2]:/en-us/citsmart-platform-9/processes/tickets/use/create-and-view-sub-request.html
+[3]:/en-us/citsmart-platform-9/processes/tickets/configuration/notification-delegated-email-ticket.html
+[4]:/en-us/citsmart-platform-9/processes/portfolio-and-catalog/configuration/send-email-reclassified-ticket.html
+[5]:/en-us/citsmart-platform-9/processes/change/overview.html
+[6]:/en-us/citsmart-platform-9/processes/problem/overview.html
+[7]:/en-us/citsmart-platform-9/processes/release/overview.html
+[8]:/en-us/citsmart-platform-9/processes/knowledge/use/review-reviews.html
+[9]:/en-us/citsmart-platform-9/processes/knowledge/configuration/configure-external-access-knowledge-portal.html
+[10]:/en-us/citsmart-platform-9/processes/configuration/overview.html
+[11]:/en-us/citsmart-platform-9/processes/tickets/use/create-escalation-rule.html
+[12]:/en-us/citsmart-platform-9/processes/tickets/use/approve-a-ticket.html
+[13]:/en-us/citsmart-platform-9/processes/tickets/use/desktop-of-service-desk.html
+[14]:/en-us/citsmart-platform-9/processes/tickets/use/register-ticket-occurrences.html
+[15]:/en-us/citsmart-platform-9/additional-features/project-management/simple-agile-management/simple-agile-management.html
+[16]:/en-us/citsmart-platform-9/processes/knowledge/use/create-experience-center.html
+[17]:/en-us/citsmart-platform-9/additional-features/smart-analytics/use-bi-solution.html
+[18]:/en-us/citsmart-platform-9/platform-administration/logs-and-auditing/system-audit.html
+[19]:/en-us/citsmart-platform-9/platform-administration/security/implement-password-security-rules.html
+[20]:/en-us/citsmart-platform-9/additional-features/mobile-and-field-service/apps/citsmart-field-service-manual.html
+[21]:/en-us/citsmart-platform-9/additional-features/mobile-and-field-service/apps/citsmart-app.html

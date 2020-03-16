@@ -92,6 +92,6 @@ Procedure
     approvals made by the user, observe news and active campaigns (questionnaires) about the organization.  
     
 !!! tip "About"  
-    <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
+    <b>Product/Version:</b> CITSmart | 9.00 &nbsp;&nbsp;
     <b>Updated:</b>02/13/2019 – Larissa Lourenço  
    

@@ -2,7 +2,7 @@ Title: Comparison of versions
 
 # Comparison of versions
 
-| Support, Management Processes, Features, Integrations & Security    |    CITSmart Platform 7    |    CITSmart Platform 8    |
+| Support, Management Processes, Features, Integrations & Security    |    CITSmart Platform 7    |    CITSmart Platform 9    |
 |---------------------------------------------------|--------------------|--------------------|
 |    Web Application                                |:ballot_box_with_check:  |:ballot_box_with_check:  |
 |    iPhone app                                     |:ballot_box_with_check:  |:ballot_box_with_check:  |
@@ -99,7 +99,7 @@ The escalation feature has been redirected into the Request and Incident feature
 In this version, besides going through a reformulation, the use of artificial intelligence was incorporated into the chat feature, in orderto enable automatic attendance, without the need of human interaction.
 
 ### Knowledge Portal
-Version 8 presents a more inclusive Knowledge Portal with more efficient searches.  It's possible, henceforth, for a user to access the functionality without being logged into the system and search for articles with more refined filters, such as tags (key word).
+Version 9 presents a more inclusive Knowledge Portal with more efficient searches.  It's possible, henceforth, for a user to access the functionality without being logged into the system and search for articles with more refined filters, such as tags (key word).
 
 ### Citsmart Neuro Application
 In this update, the Neuro application engine has been enhanced to enable the generation of various features, such as the creation of complex forms, widgets, advanced flow building, among others.

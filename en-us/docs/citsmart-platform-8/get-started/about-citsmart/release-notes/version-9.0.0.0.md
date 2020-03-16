@@ -1,6 +1,6 @@
-Description: Release Notes of CITSmart Version 8.0.0.0 from 03/01/2019
+Description: Release Notes of CITSmart Version 9.0.0.0 from 03/01/2019
 
-# Version 8.0.0.0
+# Version 9.0.0.0
 _03/01/2019_
 
 ## Fixes
@@ -41,7 +41,7 @@ For further information, see [Notification via email of reclassified ticket][4]
 
 ### Change Management
 
-Version 8.0.0.0 of CITSmart has improvements in the change management process, bringing the agile world to manage the activities that should occur during the scope of the change.
+Version 9.0.0.0 of CITSmart has improvements in the change management process, bringing the agile world to manage the activities that should occur during the scope of the change.
 
 **Note:** This functionality replaces the default flow parameters for usage of the change process, moreover, the change is necessary for this configuration.
 
@@ -50,7 +50,7 @@ For further information, see [Change Management][5]
 
 ### Problem Management
 
-In version 8.0.0.0 of CITSmar,t the problem management process allows adding activities to assist in the management of teams during the root cause diagnosis.
+In version 9.0.0.0 of CITSmar,t the problem management process allows adding activities to assist in the management of teams during the root cause diagnosis.
 
 **Note:** This functionality replaces the default flow parameters for usage of the problem process, moreover, the change is necessary for this configuration.
 
@@ -68,7 +68,7 @@ For further information, see [Release Management][7]
 
 ### Comments Review
 
-In version 8.0.0.0 CITSmart allows the evaluation and publication of written comments about a knowledge.
+In version 9.0.0.0 CITSmart allows the evaluation and publication of written comments about a knowledge.
 
 For further information, see [Comments Review][8]
 
@@ -76,7 +76,7 @@ For further information, see [Comments Review][8]
 
 We innovate the way of access to the knowledge base for users who don't have login to the CITSmart tool.
 
-In version 8.0.0.0 knowledge with permission of visualization can be accessed by the community in general, just have the link of access.
+In version 9.0.0.0 knowledge with permission of visualization can be accessed by the community in general, just have the link of access.
 
 
 For further information, see Configure external access to the [Knowledge Portal][9]
@@ -98,7 +98,7 @@ For further information, see [Create escalation rule][11]
 
 ### Ticket Approval
 
-In version 8.0.0.0 of CITSmart, we included ticket approval through a new direct icon in the attendance list, it's not necessary to open the ticket to perform the attendance, we present the available information and the options configured to accept or refuse the call.
+In version 9.0.0.0 of CITSmart, we included ticket approval through a new direct icon in the attendance list, it's not necessary to open the ticket to perform the attendance, we present the available information and the options configured to accept or refuse the call.
 
 This functionality is available on Mobile SM and on the Service Portal.
 
@@ -131,7 +131,7 @@ For further information, see [Experience Center][16]
 
 ### Business Intelligence
 
-From the version 8.0.0.0, we have provided some quantitative reports of the main processes contained in CITSmart through our new BI platform.
+From the version 9.0.0.0, we have provided some quantitative reports of the main processes contained in CITSmart through our new BI platform.
 
 For further information, see [Business Intelligence][17]
 

@@ -24,10 +24,10 @@ Procedure
     !!! Abstract "ATTENTION"
     
         Users using version 7: the **associated error message** and **Diagnostic** 
-        fields that already contained information, will now appear in version 8 on 
+        fields that already contained information, will now appear in version 9 on 
         the *Evaluation and Diagnostics* tab within the *Diagnostics* area. If you 
         do not have information in these fields in previous versions, this tab will 
-        not appear in version 8.
+        not appear in version 9.
 
     -   Create a Kanban or link an existing one. To create a new Kanban, 
     you need to click on "+ Workspace" and complete the data available, 
@@ -77,7 +77,7 @@ Procedure
     
     !!! Abstract "NOTE"
     
-        The **Definitive Solution** tab will only be available (in version 8), 
+        The **Definitive Solution** tab will only be available (in version 9), 
         in problems that already had a definitive solution registered in version 7.
     
 
@@ -116,5 +116,5 @@ Relacionado
 
 !!! tip "About"
 
-    <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
+    <b>Product/Version:</b> CITSmart | 9.00 &nbsp;&nbsp;
     <b>Updated:</b>01/30/2019 – Larissa Lourenço
