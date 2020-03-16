@@ -11,18 +11,18 @@ Download the CITSmart and Neuro WAR package from the partner portal. Send to ser
 Unzip the CITSmart Workflow package if it's in .zip format:
 
 ``` shell
-[root@server /tmp]# unzip CitsmartITSM-Enterprise-8.0.2.0.war.zip
+[root@server /tmp]# unzip CitsmartITSM-Enterprise-9.0.2.0.war.zip
 ```
 
 Copy to the application server in the folder `standalone/deployments`:
 
 ``` shell
-[root@server /tmp]# cp CitsmartITSM-Enterprise-8.0.2.0.war /opt/wildfly/standalone/deployments/
+[root@server /tmp]# cp CitsmartITSM-Enterprise-9.0.2.0.war /opt/wildfly/standalone/deployments/
 ```
 Note the log `/opt/wildfly/standalone/log/server.log` with the option `tail -f` until the message below appears:
 
 ``` shell
-2019-11-14 17:20:37,731 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "CitsmartITSM-Enterprise-8.0.2.0.war" (runtime-name : "CitsmartITSM-Enterprise-8.0.2.0.war")
+2019-11-14 17:20:37,731 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "CitsmartITSM-Enterprise-9.0.2.0.war" (runtime-name : "CitsmartITSM-Enterprise-9.0.2.0.war")
 ```
 
 The above message confirms that the deployment was performed. The same applies to the Neuro package. Copy Neuro to the folder `standalone/deployments`:

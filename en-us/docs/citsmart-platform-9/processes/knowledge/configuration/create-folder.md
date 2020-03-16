@@ -54,7 +54,7 @@ Folder permissions are applied from two perspectives: access profile and user gr
 
 
 !!! tip "About"
-    <b>Product/Verssion:</b> CITSmart | 8.05 &nbsp;&nbsp;
+    <b>Product/Verssion:</b> CITSmart | 9.05 &nbsp;&nbsp;
     <b>Updated:</b>12/23/2019 – Education Team
 
 [1]:/en-us/citsmart-platform-9/processes/knowledge/use/create-knowledge.html
