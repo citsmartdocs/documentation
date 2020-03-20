@@ -54,5 +54,5 @@ Related
 
 !!! tip "About"
 
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
+    <b>Product/Version:</b> CITSmart | 9 &nbsp;&nbsp;
     <b>Updated:</b> 20/03/2020 - Andre Fernandes
