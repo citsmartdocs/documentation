@@ -1,9 +1,9 @@
-title: Register Finantial Item 
-Description: Is intended to maintain finantial item.
+title: Register Financial Item 
+Description: Is intended to maintain financial item.
 
-# Register finantial item
+# Register financial item
 
-This functionality is intended to maintain finantial item.
+This functionality is intended to maintain financial item.
 
 ## Before getting started
 
@@ -44,7 +44,7 @@ It's necessary to have defined the access permission to the functionalities of t
 
 ## Related
 
-- [Register finantial cycle](/en-us/citsmart-platform-9/processes/finantial/use/register-finantial-cycle.html)
+- [Register financial cycle](/en-us/citsmart-platform-9/processes/financial/use/register-financial-cycle.html)
 
 !!! tip "About"
 

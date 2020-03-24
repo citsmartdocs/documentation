@@ -1,8 +1,8 @@
-title: Register Finantial Cycle
-Description: Provides a variety of actions on maintaining finantial cycle.
-# Register finantial cycle
+title: Register Financial Cycle
+Description: Provides a variety of actions on maintaining financial cycle.
+# Register financial cycle
 
-This feature provides a variety of actions, such as including, changing, and deleting the finantial cycle.
+This feature provides a variety of actions, such as including, changing, and deleting the financial cycle.
 
 Before getting started
 ----------------------
@@ -50,7 +50,7 @@ Actions
 Related
 -------
 
-- [Register finantial item](/en-us/citsmart-platform-9/processes/finantial/use/register-finantial-item.html)
+- [Register financial item](/en-us/citsmart-platform-9/processes/financial/use/register-financial-item.html)
 
 !!! tip "About"
 

@@ -10,9 +10,9 @@ According to ITIL, the ....
 Use
 -------
 
-- [Register Cycle](/en-us/citsmart-platform-9/processes/finantial/use/register-cycle.html)
+- [Register Cycle](/en-us/citsmart-platform-9/processes/financial/use/register-cycle.html)
 
-- [Register Finantial Item](/en-us/citsmart-platform-9/processes/finantial/use/register-finantial-item.html)
+- [Register Financial Item](/en-us/citsmart-platform-9/processes/financial/use/register-financial-item.html)
 
 !!! tip "About"
 
