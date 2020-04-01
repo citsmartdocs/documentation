@@ -50,6 +50,7 @@ Procedure
 |Status*| Here you have a series of options for the CI, depending on the status you chose, when you're editing the CI, the tool will block the edition. For example, when you're editing the CI and chose the status "Destroyed", the edition will no longer be possible|
 |Fixed Assets| You can inform the fixed assests for the CI|
 |Service Criticality*|Here you can set the level of criticality for the service CI|
+|Period of Criticality*| Configure the service criticality period|
 |Impact*| You can set the degree of impact|
 |Urgency*| You can set the degree of urgency|
 |Employee|You can set the employees for the CI using a searching box|
@@ -71,10 +72,10 @@ When click on "Add Knowledge", it'll appear the screan to search for the knowled
 
 To search for an specific knowledge, the filters available are: Title, Content, Published (Yes/No/All) and Situation.
 
-    !!! info "WARNING"
+!!! faq "Do you know..."
     
-        On the creation of a Knowledge, it's possible to storage electronic and digital versions of physical
-        documentation and asset documentation.
+    On the creation of a Knowledge, it's possible to storage electronic and digital versions of physical
+    documentation and asset documentation.
         
 7. On the **Financial** tab, you'll have all information about apportionments (Service, Business Unit, Result Center, Account, Projects and Activities). Here you can edit it to add a new cost related.
 
@@ -129,10 +130,9 @@ By clicking on "Add warranty", it'll present a screen to configure it, they are:
 |Start Date*|When the warranty starts to count|
 |End Date*| When this warranty will have an end|
 
-    !!! info "WARNING"
+!!! faq "Do you know..."
     
-        Once you are on the CMDB screen, on the right side of the screen, in the bottom, that's a box to identify the warranty
-        of the CI you have registered on the Warranties tab
+    Once you are on the CMDB screen, on the right side of the screen, in the bottom, that's a box to identify the warranty of the CI you have registered on the Warranties tab
 
 5.  Click on "Save" .
 
@@ -176,6 +176,7 @@ We also have the information about:
 |Warranties|It'll present all warranties of this configuration item|
 |Impacted Services|	It'll present all impacted services of this configuration item|
 |Remote access|	It'll present all remote access of this configuration item|
+|Attachments|To attach documents to the CI|
 |History|It'll present all history of this configuration item|
 
 ### Configuring capacity attributes
