@@ -29,7 +29,7 @@ In the **Services Pipeline** tab, it's the designing phase of the serive and it'
 
 |Action|Description|
 |------|-----------|
-|New Service|To start creating a service for the Service Portfolio. For the fields to be completed, see the document [Register / Edit a service](/en-us/4biz-helium/processes/portfolio-and-catalog/use/register-a-service.html)|
+|New Service|To start creating a service for the Service Portfolio. For the fields to be completed, see the document [Register / Edit a service](/en-us/citsmart-platform-9/processes/portfolio-and-catalog/use/register-a-service.html)|
 |Service Name|To order the list of services in the pipeline by name|
 |ASC|To order the list of services by ascending or descending|
 
@@ -44,7 +44,7 @@ available. For those services, we have the following actions:
 |Action|Description|
 |------|-----------|
 |Edit|To edit all the information for the creation of a service|
-|Advance|To detail all the information about the service. For the fields available in the advance action, see the document [Register / Edit a service](/en-us/4biz-helium/processes/portfolio-and-catalog/use/register-a-service.html)|
+|Advance|To detail all the information about the service. For the fields available in the advance action, see the document [Register / Edit a service](/en-us/citsmart-platform-9/processes/portfolio-and-catalog/use/register-a-service.html)|
 
 ### Service Catalog
 
@@ -54,7 +54,7 @@ we have the same actions as in the service pipeline:
 |Action|Description|
 |------|-----------|
 |Edit|To edit all the information for the creation of a service|
-|Advance|To detail all the information about the service. For the fields available in the advance action, see the document [Register / Edit a service](/en-us/4biz-helium/processes/portfolio-and-catalog/use/register-a-service.html)|
+|Advance|To detail all the information about the service. For the fields available in the advance action, see the document [Register / Edit a service](/en-us/citsmart-platform-9/processes/portfolio-and-catalog/use/register-a-service.html)|
 
 ### Obsolete Services
 
@@ -65,13 +65,13 @@ We'll have the list of services obsoletes and the following actions:
 |Action|Description|
 |------|-----------|
 |Edit|To edit all the information for the creation of a service|
-|Advance|To detail all the information about the service. For the fields available in the advance action, see the document [Register / Edit a service](/en-us/4biz-helium/processes/portfolio-and-catalog/use/register-a-service.html)|
+|Advance|To detail all the information about the service. For the fields available in the advance action, see the document [Register / Edit a service](/en-us/citsmart-platform-9/processes/portfolio-and-catalog/use/register-a-service.html)|
 
 ## Related
 
-[Create the portfolio](/en-us/4biz-helium/processes/portfolio-and-catalog/use/create-the-portfolio.html)
+[Create the portfolio](/en-us/citsmart-platform-9/processes/portfolio-and-catalog/use/create-the-portfolio.html)
 
-[Register a service](/en-us/4biz-helium/processes/portfolio-and-catalog/use/register-a-service.html)
+[Register a service](/en-us/citsmart-platform-9/processes/portfolio-and-catalog/use/register-a-service.html)
 
 
 
