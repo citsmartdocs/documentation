@@ -5,42 +5,92 @@ Description: Is intended to maintain financial item.
 
 This functionality is intended to maintain financial item.
 
+!!! faq "Do you Know ..."
+
+    In the BI reports you could reach synthetic and analytical information about:  
+    Budget, Expenses, Expected Value, Final Value, Cost Value, Main Value, ROI, Cost per Services, CAPEX, OPEX.  
+    Also BI data about Apportionment by Services,  Apportionment by Business Units, Apportionment by Result Centers,  Apportionment by Accouting Accounts,  Apportionment by Projects and  Accounting Activities.  
+
 ## Before getting started
 
-It's necessary to have defined the access permission to the functionalities of the Capacity Management and have permission of usage the functionality.
+- [x] It's necessary to have defined the access permission to the functionalities of the Capacity Management and have permission of usage the functionality.
 
 ## Procedure
+    
+1. Access the main menu Processes > Financial Management > Financial item;
+    
+2. Click on "New" and complete the fields available.
+    
+## Creating Financial Item.
 
--   Access the functionality through the main menu Processes \> Capacity Management \> Capacity Indicator Type;
+Complete the fields available on the **Information** tab:
 
--   The system will present a screen with the types of Capacity Indicators registered and a filter with Name, Category and Status;
+|Field|Description|
+|---|---|
+|Type*|Cost/Expense, Budget, Revenue|
+| Classification* |(Capex, Opex, Fixed, Direct, Unit Cost, Indirect, Variable, Assessment)|
+|Forecast| it's available Only for Revenue and Costs/Expense Category (Used to simulate financial forecasts)|
+|Budget Account| Specific Account linked to this item|
+|Forecast financial item| It's possible to search for a title of the forecast financial item|
+|Due Date*|The date that will expire it|
+|Category*|The category for this|
+|Contract|Select a contract to be linked to it|
+|Cycle*|It's the financial Method, for example, Yarly, Monthly or Quarter|
+|Subcycle*|Depends on the Cycle|
+|Code|Freetext to create or insert financial code|
+|Title*|Title of this Financial Item|
+|Status*|It'll be always be created as "Pending"|
+|Description|Description about your financial item|
+    
+### Values and Apportionments
 
--   The user can select the option "**New**" to create a new type of Capacity Indicator or for each type listed the user can select:
+In this tab you will register The Value of a financial item and also an apportionment for it´s values detailing Apportionment by Services, Apportionment by Business Units, Apportionment by Result Centers, Apportionment by Accouting Accounts, Apportionment by Projects and Accounting Activities.
 
-    1.  **Edit** - to Change the Capacity Type
+|Field|Description|
+|---|---|
+|Entry type|There are two types: Value - if you set value, after the "Select services", it'll be presented a list with the service and its values; Accounting for activities performed - for this option, after Select the activities, it'll be presented the list with the activity you selected, as well as its information and description|
+|Expected value*| It's possible to stablish to number for the value expected|
+|Main value*| Set a number for the main value|
+|Additional*| Set the number for the additional|
+|Final value*| Set a number for the value end|
+|Apportionment| Here we have the options to set all the apportionments types|
 
-    2.  **Delete** – to Exclude the Capacity type
+(\*) Indicates mandatory field
 
--   Enter the data and actions;
+### Knowledge 
 
-## Fields
+Select a financial document already created as a Knowledge to link to the financial item, you can .
 
+| Objects    | Description                         |
+|------------|-----------------------------------|
+| Add Knowledge Button | Search / Link           |
+| Grid               | Grid of linked Knowledges |
+| Delete Button      | Unlink Knowledge          |
 
-| Field         | Description                                                                                  |
-|---------------|----------------------------------------------------------------------------------------------|
-| Name  (*)     | Name of the capacity indicator type                                                          |
-| Category  (*) | Choose one of the pre-defined categories                                                     |
-| Status  (*)   | Indicates usage availability (Active/Inactive)                                               |
+### Approvals
 
-(*) Indicate mandatory field
+It's possible to create approvals and verify those that have been created, approved or denied. On the list of approvals we have the following fields:
+
+|Field|Description                           |
+|-----|------------------------------------- |
+|Ticket  |The number identifying the approval|
+|Date    |The date of the approval           |
+|Activity|The financial activity             |
+|Status  |The status of the approval         |
+
+### History
+
+It'll be presented all the information in a Grid about the changes/actions takes and made on the financial item.
+The Grid wil inform Date and time of the ocurrence, the user, wich element is involved and the action details.
 
 ## Actions
 
-| Action     | Description                                                 |
-|------------|-------------------------------------------------------------|
-| Save       | Create / Change the type of capacity indicator.             |
-| Clear      | Return the fields to default.                               |
-| Search     | Return to the previous list of types of capacity indicators |
+| Action  | Description                                                 |
+|---------|-------------------------------------------------------------|
+| Save    | Create / Change the financial item.                         |
+| Clear   | Return the fields to default.                               |
+| Search  | Return to the previous list of financial items.             |
+
 
 ## Related
 
@@ -48,5 +98,5 @@ It's necessary to have defined the access permission to the functionalities of t
 
 !!! tip "About"
 
-    <b>Product/Version:</b> 4biz | Helium &nbsp;&nbsp;
+    <b>Product/Version:</b> CITSmart | 9 &nbsp;&nbsp;
     <b>Updated:</b> 20/03/2020 - Andre Fernandes
