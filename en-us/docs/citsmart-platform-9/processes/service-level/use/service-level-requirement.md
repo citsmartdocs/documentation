@@ -1,5 +1,5 @@
 title: Service level requirement
-Description: Provides a variety of actions, such as including, changing, and deleting a service level requirement.
+Description: Provides a variety of actions, such as including, changing, and deleting a service level requirement
 
 # Service level requirement
 The Service Level Requirement (SLR) is the requirement of a client to an IT service, based on the business objectives and it's used to negotiate the service level targets.
