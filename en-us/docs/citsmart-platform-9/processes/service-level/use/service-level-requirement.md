@@ -15,7 +15,26 @@ an employee.
 1.  Access the functionality Service Level Requirement through the main menu
     Processes \> Service Level Management \> Service Level Request;
 
-2.  Click on "New" and complete the fields available.
+## Searching SLR
+
+It'll appear the filters available to search for the SLR in case you want to find an SLR already created or editing one.
+
+|Filter|Description|
+|------|-----------|
+|**Subject**|You can search by the subject of the SLR, described in the creation phase|
+|**Situation**| You can search by the status of the SLR: Active, Inactive, Planning or Under Review|
+
+Once you use the filters to search for the SLR, it'll appear in the list bellow the filters, showing its Subject and Situation. The actions available for the SLR are:
+
+|Action|Description|
+|------|-----------|
+|**Edit**|If you want to change or view any information of the SLR. The fields are the same of the creation|
+|**Delete**|If you want to delete the SLR|
+
+
+## Registering/Editing SLR
+
+Click on "New" to create a new SLR or on "Edit" to edit the information of an SLR already created
 
 |Field|Description|
 |-----|-----------|
@@ -36,23 +55,7 @@ Once you complete all the information necessary for the SLR, you'll have the fol
 |**Save**|To create the SLR or to change it when you're editing an SLR|
 |**Clear**|To return the fields to the default|
 
-## Searching/Editing SLR
 
-If you want to find an SLR already created, access the main menu Processes \> Service Level Management \> Service Level Request.
-
-It'll appear the filters available to search for the SLR.
-
-|Filter|Description|
-|------|-----------|
-|**Subject**|You can search by the subject of the SLR, described in the creation phase|
-|**Situation**| You can search by the status of the SLR: Active, Inactive, Planning or Under Review|
-
-Once you use the filters to search for the SLR, it'll appear in the list bellow the filters, showing its Subject and Situation. The actions available for the SLR are:
-
-|Action|Description|
-|------|-----------|
-|**Edit**|If you want to change or view any information of the SLR. The fields are the same of the creation|
-|**Delete**|If you want to delete the SLR|
 
 ## Related
 
