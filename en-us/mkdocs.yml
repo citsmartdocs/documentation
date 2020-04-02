@@ -584,6 +584,9 @@ nav:
       - citsmart-platform-9/processes/financial/overview.md
       - citsmart-platform-9/processes/financial/use/register-financial-cycle.md
       - citsmart-platform-9/processes/financial/use/register-financial-item.md
+      - citsmart-platform-9/processes/financial/use/financial-item-category.md
+      - citsmart-platform-9/processes/financial/use/financial-cost-calculation.md
+      - citsmart-platform-9/processes/financial/use/financial-report.md
   - Additional Features:
     - Introduction:
       - citsmart-platform-9/additional-features/introduction.md
