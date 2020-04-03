@@ -7,7 +7,10 @@ Description:
 
 It's necessary to have defined the access permission to the functionalities of the Financial Management and have permission of usage the functionality.
 
-It's necessary to have done the financial entries, created the financial cycles and classifications.
+It's necessary to have done the financial entries, created the financial cycles and classifications.  
+
+Based on the financial entries [Register financial item](https://documentation.run2biz.com/en-us/4biz-helium/processes/financial/use/register-financial-item.html) and the tabs "cost distribution" and "set price" it is possible to monitor all cost details (Hardware purchase, hardware maintenance, software purchase, software licenses, facility including utilities, personnel, etc.) according to the financial entry.  
+This monitoring of cost details can also be done through reports.
 
 ## Procedure
 
@@ -90,6 +93,12 @@ This tab presents the appropriation of costs by categories. The categories are: 
 
 **Cost distribution**
 
+The calculated costs will be appropriated in the respective services and configuration items according to the apportionment or fixed values defined in the financial entries on the [Register Financial Item](https://documentation.run2biz.com/en-us/4biz-helium/processes/financial/use/register-financial-item.html) and will be automatically associated with the service and the CI.
+
+!!! tip "Example"
+
+    Roll-up cost of a customer-facing service (e.g. email) with the breakdown of the costs for the systems (e.g. MS Exchange, Lotus Notes) and the associated supporting IT infrastructure (e.g. servers, databases, network, storage) and applications. 
+
 |Field|Description|
 |-----|-----------|
 |Category|The category of the distributed cost|
@@ -109,6 +118,10 @@ Complete the fields available to set the prices. In the "How to price" field, se
 
 If you select the **Fixed value** option, complete the fields:
 
+Based on the selected service in the previous tab "Cost by category", the costs for the selected service will be displayed and the final service price (Final price) using will be calculated "cost" and "profit" fields.
+
+The calculated values may be updated and published in the service catalog and in the service level agreement (gold, silver and bronze).
+
 |Field|Description|
 |-----|-----------|
 |% Profit margin|Set the margin you want to work with|
@@ -116,6 +129,11 @@ If you select the **Fixed value** option, complete the fields:
 |Final price|The final price for the fixed value|
 
 If you select the **Variable value** option, complete the fields:
+
+Based on the service selected in the previous tab "Cost by category", the costs for the selected service will be displayed and the service price will be calculate using the fields "estimated quantity", "Monthly unit value" and "Profit Margin".  
+The fields "estimated quantity" and "Monthly unit value" are related to the demand metrics and will be calculated through the "Integration flow of quatity capture" to generate the varied price, respecting the business rules and the profit margin.
+
+The calculated values may be updated and published in the service catalog and in the service level agreement (gold, silver and bronze).
 
 |Field|Description|
 |-----|-----------|
@@ -128,9 +146,8 @@ If you select the **Variable value** option, complete the fields:
 
 !!! tip
 
-    In the "How to calculate the amount monthly", if it's selected "manually", the values should be manually informed; if it's selected "automatically", the integration workflow should be selected to the contabilization of services executed.
-
-For the "How to price" field, at the **Both** (fixed and variable costs) option, it's possible to set a fixed cost for some cases and, if the number is not reache, it's possible to use variables costs.
+    In the "How to calculate the amount monthly", if it's selected "manually", the values should be manually informed; if it's selected "automatically", the integration workflow should be selected to the contabilization of services executed.  
+    For the "How to price" field, at the **Both** (fixed and variable costs) option, it's possible to set a fixed cost for some cases and, if the number is not reache, it's possible to use variables costs.
 
     <b>Product/Version:</b> CITSmart | 9 &nbsp;&nbsp;
     <b>Updated:</b> 04/02/2020 - William Costa
