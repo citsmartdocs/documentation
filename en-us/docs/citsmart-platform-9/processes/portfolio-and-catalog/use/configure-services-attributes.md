@@ -101,10 +101,18 @@ The Following Functions are available
 
 ### Financial Attributes
 
-!!! tip " "
+!!! tip
 
     Relationship with financial process. Placeholder for link aportionment by Result Center, Departments.  
-    Including all information about CAPEX, OPEX, Direct Value and others.
+    Including all information about CAPEX, OPEX, Direct Value and others.  
+    The System distinguish and differentiate between Service Cost and Service Price
+
+!!! note
+
+    The system perform a hierarchical service-based costing model by the distribution of the cost model created in the financial process "Financial Item" and "Financial Cost Calculation" respecting the cost of each service and making the distribution based on the cost model.    
+     The amounts will be linked to the CI automatically based on the business rules.  
+     All history of cost and price variation of the service will be presented in this financial tab.  
+     
 
 | Field          | Description                          |
 |----------------|--------------------------------------|
@@ -310,7 +318,8 @@ The Following Functions are available
 
 !!! tip " "
 
-    Contracts that use/provide the service. Could be customers, departments, external providers, etc.
+    Contracts that use/provide the service. Could be customers, departments, external providers, etc.   
+    The sales price based on the Gold, Silver and Bronze SLA should also be defined or configured based on the cost of service.
     
 | Function                   | Description     |
 |----------------------------|-----------------|
