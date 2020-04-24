@@ -15,7 +15,9 @@ enabled=1
 Em seguida, instale o mongo:
 
 ``` shell
-[root@server /tmp]# yum install mongodb-org
+yum install mongodb-org
+```
+``` shell
 Loaded plugins: extras_suggestions, langpacks, priorities, update-motd
 210 packages excluded due to repository priority protections
 Resolving Dependencies
@@ -56,10 +58,12 @@ Is this ok [y/d/N]:
 ```
 
 Coloque o mongo no serviço de inicialização e inicie o serviço
+
 ``` shell
-[root@server /tmp]# systemctl enable mongod
 systemctl enable mongod
-[root@server /tmp]# systemctl start mongod
+```
+``` shell
+systemctl start mongod
 ```
 
 ## Alterando os limites do MongoDB
@@ -91,11 +95,13 @@ security:
 Reinicie o serviço do mongo:
 
 ``` shell
-[root@server /tmp]# systemctl restart mongod
+systemctl restart mongod
 ```
 Conecte no mongodb para criar o banco de dados do CITSmart e configurar a senha de admin:
 ``` shell
-[root@server /tmp]# mongo
+mongo
+```
+``` shell
 MongoDB shell version v3.4.23
 connecting to: mongodb://127.0.0.1:27017
 MongoDB server version: 3.4.23
@@ -105,16 +111,19 @@ MongoDB server version: 3.4.23
 Execute o comando abaixo para criar o usuário e dar permissão:
 
 ```shell
-
-> use admin
+use admin
 db.createUser({
 user: "admin",
-pwd: "yourpassword",
+pwd: "admin",
 roles:[
 { role: "root", db: "admin" },
 { role: "dbOwner", db: "citsmart" }
 ]
 })
+```
+
+A seguinte saída deverá aparecer:
+```shell
 Successfully added user: {
         "user" : "admin",
         "roles" : [
@@ -128,7 +137,6 @@ Successfully added user: {
                 }
         ]
 }
-
 ```
 
 ## Próximo passo
