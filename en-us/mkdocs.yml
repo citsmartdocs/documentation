@@ -103,7 +103,7 @@ use_directory_urls: false
 nav:
 - Home:
   - 'https://documentation.citsmart.com/en-us/home.html'
-- CITSmart 9:
+- CITSmart 8:
   - Get Started:
     - About CITSmart:
       - index.md
