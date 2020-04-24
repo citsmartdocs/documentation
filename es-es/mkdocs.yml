@@ -97,7 +97,7 @@ use_directory_urls: false
 nav:
 - Inicio: 
   - 'https://documentation.citsmart.com/es-es/home.html'
-- CITSmart Platform 8:
+- CITSmart 8:
   - Iniciar:
     - Sobre CITSmart:
       - index.md
