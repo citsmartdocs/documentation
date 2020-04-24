@@ -95,7 +95,7 @@ use_directory_urls: false
 # Nav
 
 nav:
-- Inicio: 
+- Inicio:
   - 'https://documentation.citsmart.com/es-es/home.html'
 - CITSmart 8:
   - Iniciar:
@@ -639,6 +639,8 @@ nav:
       - citsmart-platform-8/additional-features/social-network/create-ticket-twitter.md
 #  - Fast Deployment Methodology:
 #    - citsmart-platform-8/fdm/fdm.md
+- CITSmart 9:
+  - 'https://docs.citsmart.com/en-us/index.html'
 - Neuro:
   - Visión general:
     - neuro/overview.md
@@ -691,4 +693,3 @@ nav:
   - faq.md
   - glossary.md
 # - contribute.md
-

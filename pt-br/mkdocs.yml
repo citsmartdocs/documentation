@@ -683,6 +683,8 @@ nav:
           - citsmart-platform-8/additional-features/automation-of-operation/use/scheduled-periodic-activities.md
 #  - Fast Deployment Methodology:
 #    - citsmart-platform-8/fdm/fdm.md
+- CITSmart 9:
+  - 'https://docs.citsmart.com/pt-br/index.html'
 - Neuro:
   - Visão Geral:
     - neuro/overview.md
