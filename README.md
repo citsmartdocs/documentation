@@ -1,4 +1,4 @@
-# CITSmart 9 Docs Repository
+# CITSmart 8 Docs Repository
 
 [![Docs](https://img.shields.io/badge/docs-stable-steelblue.svg?style=flat-square)](https://documentation.citsmart.com)
 
