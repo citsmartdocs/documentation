@@ -28,7 +28,9 @@ Continue no CLI e execute o comando abaixo para incluir um datasource:
 
 ## Criando o banco de dados do CITSmart
 
-Independente da arquitetura do banco (se instalado no nesmo servidor ou separado) os passos abaixo servem para se criar um banco de dados e um usuário para o CITSmart. No procedimento partimos do pressuposto que você tenha acesso ao SGBD. Acesse o PostgreSQL com comando abaixo:
+Independente da arquitetura do banco (se instalado no nesmo servidor ou separado) os passos abaixo servem para se criar um banco de dados e um usuário para o CITSmart. No procedimento partimos do pressuposto que você tenha acesso ao SGBD. Caso não tenha o SGBD instalado, consulte informações sobre o procedimento de instalação diretamente na página [https://www.postgresql.org/download/linux/redhat/][2].
+
+Acesse o PostgreSQL com comando abaixo:
 
 ```sh
 su - postgres
@@ -115,17 +117,23 @@ host citsmart_db citsmartdbuser WILDFLY_IP_ADDRESS/32 md5
 
 Existem oito entradas de datasource para o citsmart_db, sendo que quatro são para o CITSmart e quatro para o CITSmart Neuro. O usuário e senha é citsmartdbuser e SUA_SENHA criados no passo anterior. Caso tenha criado usuário, senha e banco de nomes diferentes, altere nos comandos abaixo.
 
-Conecte no jboss-cli e execute os seguintes comandos:
+Conecte no jboss-cli e execute os seguintes comandos. Para que não ocorra nenhum erro na execução, execute cada comando separadamente:
 
 ### Datasource citsmart
 
 ```sh
 /subsystem=datasources/data-source="/jdbc/citsmart":add(jndi-name="java:/jdbc/citsmart",driver-name="postgres",connection-url="jdbc:postgresql://pgdata.citsmart.com:5432/citsmart_db",user-name="citsmartdbuser",password="exemplo123",driver-class="org.postgresql.Driver", enabled=true, use-java-context=true)
+
 /subsystem=datasources/data-source="/jdbc/citsmart":write-attribute(name=min-pool-size,value=10)
+
 /subsystem=datasources/data-source="/jdbc/citsmart":write-attribute(name=max-pool-size,value=300)
+
 /subsystem=datasources/data-source="/jdbc/citsmart":write-attribute(name=pool-prefill,value=true)
+
 /subsystem=datasources/data-source="/jdbc/citsmart":write-attribute(name=flush-strategy,value=FailingConnectionOnly)
+
 /subsystem=datasources/data-source="/jdbc/citsmart":write-attribute(name=blocking-timeout-wait-millis,value=60000)
+
 /subsystem=datasources/data-source="/jdbc/citsmart":write-attribute(name=idle-timeout-minutes,value=5)
 ```
 
@@ -133,11 +141,17 @@ Conecte no jboss-cli e execute os seguintes comandos:
 
 ```sh
 /subsystem=datasources/data-source="/jdbc/citsmartFluxo":add(jndi-name="java:/jdbc/citsmartFluxo",driver-name="postgres",connection-url="jdbc:postgresql://pgdata.citsmart.com:5432/citsmart_db",user-name="citsmartdbuser",password="exemplo123",driver-class="org.postgresql.Driver", enabled=true, use-java-context=true)
+
 /subsystem=datasources/data-source="/jdbc/citsmartFluxo":write-attribute(name=min-pool-size,value=10)
+
 /subsystem=datasources/data-source="/jdbc/citsmartFluxo":write-attribute(name=max-pool-size,value=300)
+
 /subsystem=datasources/data-source="/jdbc/citsmartFluxo":write-attribute(name=pool-prefill,value=true)
+
 /subsystem=datasources/data-source="/jdbc/citsmartFluxo":write-attribute(name=flush-strategy,value=FailingConnectionOnly)
+
 /subsystem=datasources/data-source="/jdbc/citsmartFluxo":write-attribute(name=blocking-timeout-wait-millis,value=60000)
+
 /subsystem=datasources/data-source="/jdbc/citsmartFluxo":write-attribute(name=idle-timeout-minutes,value=5)
 ```
 
@@ -145,11 +159,17 @@ Conecte no jboss-cli e execute os seguintes comandos:
 
 ```sh
 /subsystem=datasources/data-source="/jdbc/citsmart_reports":add(jndi-name="java:/jdbc/citsmart_reports",driver-name="postgres",connection-url="jdbc:postgresql://pgdata.citsmart.com:5432/citsmart_db",user-name="citsmartdbuser",password="exemplo123",driver-class="org.postgresql.Driver", enabled=true, use-java-context=true)
+
 /subsystem=datasources/data-source="/jdbc/citsmart_reports":write-attribute(name=min-pool-size,value=10)
+
 /subsystem=datasources/data-source="/jdbc/citsmart_reports":write-attribute(name=max-pool-size,value=300)
+
 /subsystem=datasources/data-source="/jdbc/citsmart_reports":write-attribute(name=pool-prefill,value=true)
+
 /subsystem=datasources/data-source="/jdbc/citsmart_reports":write-attribute(name=flush-strategy,value=FailingConnectionOnly)
+
 /subsystem=datasources/data-source="/jdbc/citsmart_reports":write-attribute(name=blocking-timeout-wait-millis,value=60000)
+
 /subsystem=datasources/data-source="/jdbc/citsmart_reports":write-attribute(name=idle-timeout-minutes,value=5)
 ```
 
@@ -157,11 +177,17 @@ Conecte no jboss-cli e execute os seguintes comandos:
 
 ```sh
 /subsystem=datasources/data-source="/jdbc/citsmartBpmEventos":add(jndi-name="java:/jdbc/citsmartBpmEventos",driver-name="postgres",connection-url="jdbc:postgresql://pgdata.citsmart.com:5432/citsmart_db",user-name="citsmartdbuser",password="exemplo123",driver-class="org.postgresql.Driver", enabled=true, use-java-context=true)
+
 /subsystem=datasources/data-source="/jdbc/citsmartBpmEventos":write-attribute(name=min-pool-size,value=10)
+
 /subsystem=datasources/data-source="/jdbc/citsmartBpmEventos":write-attribute(name=max-pool-size,value=300)
+
 /subsystem=datasources/data-source="/jdbc/citsmartBpmEventos":write-attribute(name=pool-prefill,value=true)
+
 /subsystem=datasources/data-source="/jdbc/citsmartBpmEventos":write-attribute(name=flush-strategy,value=FailingConnectionOnly)
+
 /subsystem=datasources/data-source="/jdbc/citsmartBpmEventos":write-attribute(name=blocking-timeout-wait-millis,value=60000)
+
 /subsystem=datasources/data-source="/jdbc/citsmartBpmEventos":write-attribute(name=idle-timeout-minutes,value=5
 ```
 
@@ -169,20 +195,15 @@ Conecte no jboss-cli e execute os seguintes comandos:
 
 ```sh
 /subsystem=datasources/data-source="/env/jdbc/citsmart-neuro":add(jndi-name="java:/env/jdbc/citsmart-neuro",driver-name="postgres",connection-url="jdbc:postgresql://pgdata.citsmart.com:5432/citsmart_db",user-name="citsmartdbuser",password="exemplo123",driver-class="org.postgresql.Driver", enabled=true, use-java-context=true)
-```
-```sh
+
 /subsystem=datasources/data-source="/env\/jdbc\/citsmart-neuro":write-attribute(name=min-pool-size,value=10)
-```
-```sh
+
 /subsystem=datasources/data-source="/env\/jdbc\/citsmart-neuro":write-attribute(name=max-pool-size,value=300)
-```
-```sh
+
 /subsystem=datasources/data-source="/env\/jdbc\/citsmart-neuro":write-attribute(name=pool-prefill,value=true)
-```
-```sh
+
 /subsystem=datasources/data-source="/env\/jdbc\/citsmart-neuro":write-attribute(name=flush-strategy,value=FailingConnectionOnly)
-```
-```sh
+
 /subsystem=datasources/data-source="/env\/jdbc\/citsmart-neuro":write-attribute(name=blocking-timeout-wait-millis,value=60000)
 ```
 
@@ -190,20 +211,15 @@ Conecte no jboss-cli e execute os seguintes comandos:
 
 ```sh
 /subsystem=datasources/data-source="/env/jdbc/citsmart-neuro-app1":add(jndi-name="java:/env/jdbc/citsmart-neuro-app1",driver-name="postgres",connection-url="jdbc:postgresql://pgdata.citsmart.com:5432/citsmart_db",user-name="citsmartdbuser",password="exemplo123",driver-class="org.postgresql.Driver", enabled=true, use-java-context=true)
-```
-```sh
+
 /subsystem=datasources/data-source="/env\/jdbc\/citsmart-neuro-app1":write-attribute(name=min-pool-size,value=10)
-```
-```sh
+
 /subsystem=datasources/data-source="/env\/jdbc\/citsmart-neuro-app1":write-attribute(name=max-pool-size,value=300)
-```
-```sh
+
 /subsystem=datasources/data-source="/env\/jdbc\/citsmart-neuro-app1":write-attribute(name=pool-prefill,value=true)
-```
-```sh
+
 /subsystem=datasources/data-source="/env\/jdbc\/citsmart-neuro-app1":write-attribute(name=flush-strategy,value=FailingConnectionOnly)
-```
-```sh
+
 /subsystem=datasources/data-source="/env\/jdbc\/citsmart-neuro-app1":write-attribute(name=blocking-timeout-wait-millis,value=60000)
 ```
 
@@ -211,20 +227,15 @@ Conecte no jboss-cli e execute os seguintes comandos:
 
 ```sh
 /subsystem=datasources/data-source="/env/jdbc/citsmart-neuro-app2":add(jndi-name="java:/env/jdbc/citsmart-neuro-app2",driver-name="postgres",connection-url="jdbc:postgresql://pgdata.citsmart.com:5432/citsmart_db",user-name="citsmartdbuser",password="exemplo123",driver-class="org.postgresql.Driver", enabled=true, use-java-context=true)
-```
-```sh
+
 /subsystem=datasources/data-source="/env\/jdbc\/citsmart-neuro-app2":write-attribute(name=min-pool-size,value=10)
-```
-```sh
+
 /subsystem=datasources/data-source="/env\/jdbc\/citsmart-neuro-app2":write-attribute(name=max-pool-size,value=300)
-```
-```sh
+
 /subsystem=datasources/data-source="/env\/jdbc\/citsmart-neuro-app2":write-attribute(name=pool-prefill,value=true)
-```
-```sh
+
 /subsystem=datasources/data-source="/env\/jdbc\/citsmart-neuro-app2":write-attribute(name=flush-strategy,value=FailingConnectionOnly)
-```
-```sh
+
 /subsystem=datasources/data-source="/env\/jdbc\/citsmart-neuro-app2":write-attribute(name=blocking-timeout-wait-millis,value=60000)
 ```
 
@@ -232,20 +243,15 @@ Conecte no jboss-cli e execute os seguintes comandos:
 
 ```sh
 /subsystem=datasources/data-source="/env/jdbc/citsmart-neuro-app3":add(jndi-name="java:/env/jdbc/citsmart-neuro-app3",driver-name="postgres",connection-url="jdbc:postgresql://pgdata.citsmart.com:5432/citsmart_db",user-name="citsmartdbuser",password="exemplo123",driver-class="org.postgresql.Driver", enabled=true, use-java-context=true)
-```
-``` sh
+
 /subsystem=datasources/data-source="/env\/jdbc\/citsmart-neuro-app3":write-attribute(name=min-pool-size,value=10)
-```
-``` sh
+
 /subsystem=datasources/data-source="/env\/jdbc\/citsmart-neuro-app3":write-attribute(name=max-pool-size,value=300)
-```
-``` sh
+
 /subsystem=datasources/data-source="/env\/jdbc\/citsmart-neuro-app3":write-attribute(name=pool-prefill,value=true)
-```
-``` sh
+
 /subsystem=datasources/data-source="/env\/jdbc\/citsmart-neuro-app3":write-attribute(name=flush-strategy,value=FailingConnectionOnly)
-```
-``` sh
+
 /subsystem=datasources/data-source="/env\/jdbc\/citsmart-neuro-app3":write-attribute(name=blocking-timeout-wait-millis,value=60000)
 ```
 
@@ -266,26 +272,19 @@ E faça um teste de conexão com o banco usando os comandos abaixo. Lembrando qu
 
 ``` sh
 /subsystem=datasources/data-source="/jdbc/citsmart":test-connection-in-pool
-```
-``` sh
+
 /subsystem=datasources/data-source="/jdbc/citsmartFluxo":test-connection-in-pool
-```
-``` sh
+
 /subsystem=datasources/data-source="/jdbc/citsmart_reports":test-connection-in-pool
-```
-``` sh
+
 /subsystem=datasources/data-source="/jdbc/citsmartBpmEventos":test-connection-in-pool
-```
-``` sh
+
 /subsystem=datasources/data-source="/env/jdbc/citsmart-neuro":test-connection-in-pool
-```
-``` sh
+
 /subsystem=datasources/data-source="/env/jdbc/citsmart-neuro-app1":test-connection-in-pool
-```
-``` sh
+
 /subsystem=datasources/data-source="/env/jdbc/citsmart-neuro-app2":test-connection-in-pool
-```
-``` sh
+
 /subsystem=datasources/data-source="/env/jdbc/citsmart-neuro-app3":test-connection-in-pool
 ```
 
@@ -294,3 +293,4 @@ E faça um teste de conexão com o banco usando os comandos abaixo. Lembrando qu
 [Configurando o Wildfly][1]
 
 [1]:/pt-br/citsmart-platform-8/get-started/installation-and-upgrade/perform-installation/conf-wildfly.html
+[2]:https://www.postgresql.org/download/linux/redhat/
