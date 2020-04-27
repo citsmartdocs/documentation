@@ -108,14 +108,12 @@ nav:
     - Sobre o CITSmart:
       - index.md
       - citsmart-platform-8/get-started/about-citsmart/whats-citsmart.md
-      - citsmart-platform-8/get-started/about-citsmart/whats-new-v9.md
+      - citsmart-platform-8/get-started/about-citsmart/whats-new-v8.md
       - citsmart-platform-8/get-started/about-citsmart/introduction-to-platform.md
-      - citsmart-platform-8/get-started/about-citsmart/comparative-versions.md
-      - citsmart-platform-8/get-started/about-citsmart/release-policy.md
     - Notas de Release:
       - citsmart-platform-8/get-started/about-citsmart/release-notes.md
-      - O que há de novo:
-        - citsmart-platform-8/get-started/about-citsmart/release-notes/version-8.0.0.0.md
+      - citsmart-platform-8/get-started/about-citsmart/comparative-versions.md      
+      - citsmart-platform-8/get-started/about-citsmart/release-policy.md      
     - Arquitetura:
       - citsmart-platform-8/get-started/architecture/architecture.md
       #- citsmart-platform-8/get-started/architecture/on-premise.md
