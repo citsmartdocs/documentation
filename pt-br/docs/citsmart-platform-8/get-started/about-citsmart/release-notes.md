@@ -3,6 +3,23 @@ Description: Notas de release, correções de erros e melhorias no CITSmart.
 
 # Notas de Release
 
+## Versão 8.0.7.9 (2020/07/13)
+Bem-vindos ao Citsmart Versão 8.0.7.9 Esta versão apresenta os seguintes itens:
+
+|Número|Tipo|Funcionalidade|Descrição|
+|--------|---------|---------|---------|
+|4861|Corretiva|Gerência de Ticket|Correção da duplicação de ticket ao reclassificar|
+|4668|Corretiva|Gerência de Ticket|Correção da duplicação de tarefa de fluxo na delegação|
+|4553|Corretiva|Gerência de Ticket|Correção do 'estouro' do campo descrição na visualização da solução resposta|
+
+A versão apresentada possui a seguinte melhoria:
+
+|Número|Tipo|Funcionalidade|Descrição|
+|--------|---------|---------|---------|
+|9222|Melhoria|Gerência de Ticket|Criação da view materialized ‘employeecontract
+‘ para melhorar a performance do sistema ao buscar dados do empregado, contrato e seus grupos de atuação|
+
+
 ## Versão 8.0.7.2 (2020/04/27)
 Bem-vindos ao Citsmart Versão 8.0.7.1 Esta versão apresenta os seguintes itens:
 
