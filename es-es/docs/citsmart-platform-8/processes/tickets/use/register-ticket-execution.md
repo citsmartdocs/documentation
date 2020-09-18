@@ -1,61 +1,30 @@
-title: Registrar ejecución del ticket
-Description: Permite registrar la ejecución del ticket.
-# Registrar ejecución del ticket
+title: Registrar ocurrencias relacionadas con el ticket 
+Description: Permite registrar eventuales ocurrencias referentes a la ejecución del ticket.
 
-La funcionalidad permite registrar la ejecución del ticket.
+# Registrar ocurrencias relacionadas con el ticket
 
-Antes de empezar
-----------------
+La funcionalidad permite registrar en comentarios todos los pasos de la ejecución del ticket (sus ocurrencias). En esta nueva versión de la funcionalidad del ticket se pondrá a disposición un "Editor de texto" para la inserción de los comentarios pertinentes a las sucesivas ocurrencias.
 
-Para ejecutar el ticket es necesario permiso para efectuar la operación y el
-registro previo de la causa de incidente y de la categoría de solución. Es
-necesario primero habilitar el parámetro 298 (configurado en "S").
+!!! warning "ATENCIÓN"
 
-Es necesario también establecer en el parámetro 253, el ID de correo electrónico
-elegido para registrar la instancia y el identificador de la plantilla de correo
-electrónico de notificación en el parámetro 251.
+    Los comentarios sobre las ocurrencias pueden modificarse, eliminarse o buscarse (por su contenido), en el área titulada  de "Comentarios".
 
-!!! Abstract "ATENCIÓN"
+!!! note "NOTA"
 
-    Para que la opción "Guardar solución / Respuesta en la base de conocimiento"
-    disponible al marcar la opción "Resuelta" del ticket, es necesario
-    configurar los parámetros 182 y 192.
+    El historial de todos los comentarios del ticket se puede ver haciendo clic en la pestaña "Historial" en la 
+    parte superior derecha de la pantalla. Todas las acciones tomadas desde la creación hasta el cierre se registran en el historial, sirviendo como Auditoría
 
+## Antes de empezar
 
-Procedimiento
--------------
+Para ejecutar el ticket, además del permiso para efectuar la operación y el registro previo, es necesario anteriormente habilitar el parámetro 251, 252, 253 e 298.
+Para enviar el comentario por correo electrónico es necesario [Configurar el servicio de mensajería][1].
 
-1.  Acceda a la funcionalid por el menú principal Procesos \> Gestión de
-    Requerimiento e Incidente \> Ticket;
+##  Procedimiento
 
-2.  Buscar el ticket deseado, seleccionarlo y hacer clic en el icono “Abrir”;
+1. Acceder al menú principal Procesos > Gestión de Ticket > Ticket;
+2. Buscar el ticket que quiera, hacerlo clic y después en el icono "Abrir";
+3. En el área titulada "Comentarios", completar los campos necesarios (escribir el comentario pertinente, registrar la fecha y el tiempo gastado en la ejecución del ticket) y hacer clic en el icono "Agregar". Es posible permitir la visualización de esta información al solicitante cuando seleccionar el campo "Público", además de ser posible enviar el comentario por correo electrónico.
 
-3.  En el área titulada "Ejecución", hacer clic en el icono "Agregar nota" y
-    completar los campos necesarios (hacer un comentario pertinente, registrar
-    la fecha y el tiempo que se tarda en la ejecución del ticket). Puede
-    permitir la visualización de esta información al solicitante cuando
-    seleccionar el campo "Visible al solicitante". Después, hacer clic en
-    "Guardar" para efectuar la operación.
-
-    !!! Abstract "ATENCIÓN"
-
-        El registro de ocurrencias referentes al ticket se hace a través del botón
-        "Añadir nota". El historial de todas las instancias del ticket se puede ver
-        al hacer clic en el icono “Historial”, situado en la esquina superior
-        derecha de la pantalla.
-
-4.  Si ha finalizado la llamada del ticket, en el área "Cierre", cambie la
-    situación del mismo a "Resuelta", simplemente haga clic en la situación para
-    cambiar. Informar también los datos sobre la solución hecha:  
-
-       -  Si el tipo de ticket es Incidente o Solicitud, completar los campos
-          necesarios (Causa, categoría de solución, detalle de la causa, solución
-          de respuesta, definir si la "solución de respuesta" en la base de
-          conocimientos y si la solución es temporal). Si ha optado por "Guardar
-          la solución/respuesta en la base de conocimiento", al guardar el ticket,
-          el conocimiento se crea y se vincula al ticket;  
-
-5.  Hacer clic en el botón de opciones y después en "Guardar".
 
 Relacionado
 -----------
