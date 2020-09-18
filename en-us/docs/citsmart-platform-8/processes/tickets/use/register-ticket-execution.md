@@ -1,58 +1,32 @@
-title:  Register ticket execution
- 
-Description: This functionality allows to register the ticket execution.
+title:  Register ticket occurrences
+Description: It allows to register possible occurrences about the execution of a ticket.
 
-# Register ticket execution
-This functionality allows to register the ticket execution.
+# Register ticket occurrences
 
-Before getting started
---------------------------
+The functionality allows to record in comments all the steps of the ticket execution (its occurrences).In this new version of the ticket functionality, a "Text editor" will be made available for the insertion of the relevant comments to the occurrences.
 
-To execute the ticket, it's necessary to have permission to perform the
-operation and previously register the cause of incident and the solution
-category. It's necessary to first enable parameter 298 (set to "S").
+!!! warning "ATTENTION"
 
-IT's necessary to also enter in parameter 253 the e-mail ID chosen to register
-occurrence and the notification e-mail template ID in parameter 251.
-
-!!! Abstract "ATTENTION"  
-    So that the option "Write Solution / Response in the Knowledge Base" is
-    available by checking the "Resolved" option of the ticket, you must
-    configure parameters 182 and 192
-
-Procedure
--------------
-
-1.  Access the functionality Ticket Management through the main menu Processes
-    \> Request and Incident Management \> Service Request and Incident;
-
-2.  Click on the ticket you want and then on the icon “Open”;
-
-3.  In "Execution", click on the "Add note" icon and complete the necessary
-    fields (make a pertinent comment, register the date and time spent in the
-    execution of the ticket). You can allow this information to be viewed by the
-    requester when you select the "Visible to Applicant" field. Therefore, click
-    on "Save".
-
-    !!! Abstract "NOTE"
-
-        The registration of occurrences related to the ticket is done through the
-        button "Add note". The history of all ticket instances can be viewed by
-        clicking the icon  “History” , located in the upper right corner of the
-        screen.  
-
-4.  If you have completed the ticket service, in the "Closure" area, change the
-    status of the ticket to "Solved", just click on the situation to change.
-    Also inform the data on the solution performed:
+    Comments on occurrences may be changed, deleted or searched (for their content), in the area entitled "Comments".
     
-    -   If the ticket type is Incident or Request, complete the required fields
-    (Cause, Solution Category, Cause Detail, Response Solution, Set whether the
-    "Answer Solution" in the Knowledge Base and whether the solution is
-    temporary). If you chose to "Save the Solution/Response in the Knowledge
-    Base", when you save the ticket, the knowledge is created and linked to the
-    ticket;
+!!! note "NOTE"
+    
+    The history of all ticket comments can be viewed by clicking on the "History" tab in 
+    the upper right side of the screen. All actions taken from creation to closure are recorded in the history, serving as Audit.
 
-5.  Click on the options button and then "Save" to complete the operation.
+
+## Before getting started
+
+To execute the ticket in addition to the permission to perform the operation and the previous registration, it is necessary to first enable the parameter 251, 252, 253 e 298.
+To send comments via email, it is necessary to [Configure the messaging service][1].
+
+## Procedure
+
+1. Access the funcionality through the main menu Processes > Ticket Management > Ticket;
+2. Find the ticket you want, click on it and then on the "Open" icon;
+3. In the "Comments" area, complete the necessary fields (write the pertinent comment, register date and time spent in the execution of
+the ticket) and click on the "Add" icon. It is possible to allow this information to be viewed by the requester when selecting the
+"Public" field, in addition to being able to send the comment by email.
 
 
 Related
@@ -66,6 +40,8 @@ Related
 [Register cause of incidents](/en-us/citsmart-platform-8/processes/portfolio-and-catalog/configuration/register-cause-incidents.html)
 
 <i class='fa fa-youtube-play  fa-2x' style='color:#97ce17;vertical-align: middle;'> </i> [Video Library](https://www.youtube.com/playlist?list=PLB5qK2uzf2RNrJnhiXj3dbmgsm9-quhfz)'
+
+[1]:/en-us/citsmart-platform-8/additional-features/communication-and-notification/notification/configuration/enable-messaging-within-citsmart.html
 
 !!! tip "About"
 
