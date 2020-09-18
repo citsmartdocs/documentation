@@ -32,12 +32,12 @@ Procedimento
         Para maiores informações sobre como vincular estas funcionalidades, ler o
         conhecimento referente ao mesmo na aba " Relacionado", localizado logo abaixo.
 
-5.  Podemos visualizar o histórico de ocorrências da liberação ao apertar no
-    ícone “Registro de Execução” e o fluxo referente a mesma ao clicar no
-    ícone “Visualizar fluxo”;
+5.  Podemos visualizar o histórico de ocorrências da liberação ao apertar no ícone “Registro de Execução;
+    No histórico fica registrado todas as ações realizadas desde a criação até o encerramento, servindo como Auditoria;
 
-6.  Clicar em “Opções” e em seguida em "Gravar e avançar o fluxo" ou "Gravar e
-    manter a tarefa atual" para executar a liberação.
+6.  A visualização do fluxo referente a Liberação pode ser visualizada ao clicar no ícone “Visualizar fluxo”.
+   
+7.  Clicar em “Opções” e em seguida em "Gravar e avançar o fluxo" ou "Gravar e manter a tarefa atual" para executar a liberação.
 
 Relacionado
 ---------------
