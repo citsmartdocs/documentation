@@ -588,6 +588,8 @@ nav:
   - Recursos adicionais:
     - Introdução:
       - citsmart-platform-8/additional-features/introduction.md
+    - Views:
+      - citsmart-platform-9/additional-features/metadata-technical-view-report.md
     - Simple agile management:
       - citsmart-platform-8/additional-features/project-management/simple-agile-management/simple-agile-management.md
     - Portal de Serviço:
