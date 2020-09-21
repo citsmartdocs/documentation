@@ -9,11 +9,19 @@ necessidade de novas atualizações ou softwares adicionais.
 
 ## Antes de começar
 
+<<<<<<< Updated upstream
 - [x] É necessário ter permissão de acesso. 
 
 - [x] Para usar o Designer é necessário definir o nome do Schema de banco de dados a partir do parâmetro 32 (ex.: public).
 
 - [x] É necessário conhecimento de Standard Query Language (SQL), para criar ou manipular os relatórios.
+=======
+É necessário ter permissão de acesso. 
+
+Além disso, para usar o Designer é necessário definir o nome do Schema de banco de dados a partir do parâmetro 32 (ex. public).
+
+É necessário conhecimento de Standard Query Language (SQL), para criar ou manipular os relatórios
+>>>>>>> Stashed changes
 
 ## Cadastrar um Smart Report
 
