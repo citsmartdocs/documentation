@@ -1,30 +1,31 @@
-title: Relatorio Smart
-Description: relatórios Smart.
+title: Smart Reports
+Description: Smart Reports.
 
-# Relatorio Smart
-Esse relatório retorna somente Softwares lidos pelo inventário.
+# Smart Reports
 
-## Como acessar
+This report returns only Software read by the inventory.
 
-Relatórios > Relatórios Smart > Gerador de Relatórios Smart 
+## How to access
 
-## Antes de começar
+Reports > Smart Reports > Smart Reports Creator 
 
-- [x] O administrador deverá cadastrar os softwares lidos na funcionalidade de Cadastrar Mídia Definitiva. [Construir e manter relatórios Smart](/pt-br/citsmart-platform-8/additional-features/reports/create/smart-reports/configuration/build-maintain-smart-report.html)
+## Before getting started
 
-- [x] O administrador deverá importar o relatório Smart. [Importar relatório Smart](pt-br/citsmart-platform-8/additional-features/reports/create/smart-reports/configuration/build-maintain-smart-report.html#importarexportar-smart-reports)
+- [x] The manager must register the software read in the Register Definitive Media functionality. [Build and maintain smart reports](/en-us/citsmart-platform-8/additional-features/reports/create/smart-reports/configuration/build-maintain-smart-report.html)
 
-- [x] O usuário deverá importar o pacote anexo em Relatórios>> Relatórios Smart >> Gerador de Relatórios Smart
+- [x] The manager must import the Smart report. [Import smart report](en-us/citsmart-platform-9/additional-features/reports/create/smart-reports/configuration/build-maintain-smart-report.html#importarexportar-smart-reports)
 
-- [x] Dentro da tela de Gerador de Relatórios Smart, o usuário deverá configurar a Categoria em Ativos e Configuração
+- [x] The user must import the attached package in Reports>> Smart Reports >> Smart Reports Creator
 
-- [x] Dentro da tela de Gerador de Relatórios Smart, o usuário deverá configurar Módulo(s) onde será exibido em Geral e informar Gerenciamento de Configuração
+- [x] Within the Smart Report Creator screen, the user must configure the Category in Assets and Configuration
 
-## Procedimento
+- [x] Within the Smart Report Creator screen, the user must configure the Module where it'll be displayed in General and inform Configuration Management
 
-Ao acessar a tela de Lista de CMDB o usuário poderá visualizar em Mais Opções a opção de Relatório.
+## Procedure
 
-Dentro da Opção de Relatório, o sistema listará o Relatório de Controle de Licenças de Software.
+When accessing the CMDB List screen, the user will be able to view in More Options, the option of Report.
+
+Within the Report Option, the system will list the Software License Control Report
 
 
 !!! tip "About"
