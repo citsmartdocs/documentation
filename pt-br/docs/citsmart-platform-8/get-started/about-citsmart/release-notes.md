@@ -3,6 +3,74 @@ Description: Notas de release, correções de erros e melhorias no CITSmart.
 
 # Notas de Release
 
+## Versão 8.0.7.14 (2020/08/27)
+Bem-vindos ao Citsmart Versão 8.0.7.14 Esta versão apresenta os seguintes itens:
+
+|Número|Tipo|Funcionalidade|Descrição|
+|--------|---------|---------|---------|
+|#9635|Corretiva|Task|Correção da duplicidade na pesquisa avançada oriunda da reabertura/reclassificação|
+
+## Versão 8.0.7.13 (2020/08/20)
+Bem-vindos ao Citsmart Versão 8.0.7.13 Esta versão apresenta os seguintes itens:
+
+|Número|Tipo|Funcionalidade|Descrição|
+|--------|---------|---------|---------|
+|#4930|Corretiva|Gerência de Ticket|Correção do cálculo do tempo de captura e tempo de atraso na pesquisa avançada.|
+|#5089|Corretiva|Gerência de Ticket|Falha na busca por papéis do cadastro de projetos|
+|#9434|Corretiva|Task|Erro na leitura de e-mail de solicitante|
+|#9504|Melhoria|Task|Remover acesso às ferramentas de acesso aos dados da aplicação|
+|#9583|Melhoria|Task|Criar Job quartz para atualizar view materializada employeecontract_view, com relação a vencimento de contrato|
+|#9584|Melhoria|Task|Alterar momento da busca de permissões na listagem de ticket|
+|#9587|Melhoria|Task|Alterar momento da busca dos grupos executores na listagem de ticket * Feito ajuste|
+|#9589|Corretiva|Task|Melhorando as mensagens de erro disparadas no log referente a notificação do solicitante do ticket no SmartChat|
+|#9594|Corretiva|Task|Erro na criação de uma mudança por conta da flac Active criada na tabela itemtrabalho * Feito ajuste|
+|#9607|Corretiva|Task|Falha na busca da pesquisa avançada|
+
+|Número|Tipo|Funcionalidade|Descrição|
+|--------|---------|---------|---------|
+|#9207|Corretiva|Neuro|Correção dos erros que ocorrem em Neuro quando o ambiente é clusterizado|
+
+## Versão 8.0.7.12 (2020/08/12)
+Bem-vindos ao Citsmart Versão 8.0.7.12 Esta versão apresenta os seguintes itens:
+
+|Número|Tipo|Funcionalidade|Descrição|
+|--------|---------|---------|---------|
+|#9297|Corretiva|Task|Removido restore de fornecedor e cliente dentro de iteração de contratos|
+|#9579|Corretiva|Task|Correção do erro ao resolver um Problema|
+|#9585|Corretiva|Task|Remoção das N+1 consultas para recuperar os quantitativos da listagem de tickets|
+|#9201|Melhoria|Task|Inclusão flag no item de trabalho do fluxo para busca avançada|
+|#9509|Melhoria|Task|Inclusão de tratamento quando um “chatUser” já existir|
+|#9527|Melhoria|Task|Inclusão de parâmetro no “.cfg” para subir sem/com suporte a processamento de jobs|
+|#9570|Corretiva|Task|Correção do erro ao visualizar fluxo em um Ticket|
+
+|Número|Tipo|Funcionalidade|Descrição|
+|--------|---------|---------|---------|
+|#9550|Melhoria|Neuro|Configuração de parâmetros ECM para tamanho do anexo no Neuro|
+
+## Versão 8.0.7.11 (2020/08/17)
+Bem-vindos ao Citsmart Versão 8.0.7.11 Esta versão apresenta os seguintes itens:
+
+|Número|Tipo|Funcionalidade|Descrição|
+|--------|---------|---------|---------|
+|#4950|Corretiva|Gerência de Ticket|Inclusão de higienização de html na visualização do campo descrição da tela de ticket|
+|#4997|Corretiva|Gerência de Ticket|Correção do envio de e-mail através da caixa de e-mail configurada no contrato|
+|#9503|Corretiva|Task|Correção de mapeamento da auditoria. A coluna “nivelurgencia” pertence a tabela “urgencia”|
+
+## Versão 8.0.7.10 (2020/07/27)
+Bem-vindos ao Citsmart Versão 8.0.7.10 Esta versão apresenta os seguintes itens:
+
+|Número|Tipo|Funcionalidade|Descrição|
+|--------|---------|---------|---------|
+|#4633|Corretiva|Gerência de Ticket|Correção na abertura de chamado via e-mail|
+|#4875|Corretiva|Gerência de Ticket|Feito ajuste na visualização de sprint vencidas|
+|#9154|Corretiva|Task|Ajustes na inclusão do registro de ChatUsers para evitar tentativas com employeeId Nulo|
+|#9157|Melhoria|Task|Adição de LOGGER em telas que permitem acesso ao banco e inclusão de novos handlers|
+|#9160|Melhoria|Task|Melhoria no desempenho da consulta do SmartChat que verifica os tickets para captura|
+|#9195|Corretiva|Task|Manter autoCommit apenas no operações insert, update, delete|
+|#9212|Melhoria|Task|Alteração thread do sistema melhor identificação nos logs de execução|
+|#9313|Melhoria|Task|Inclusão tratamento de filas para extração de dados na "Pesquisa Avançada"|
+|#9324|Melhoria|Task|Inclusão de busca paginada dos registros da "Pesquisa Avançada"|
+
 ## Versão 8.0.7.9 (2020/07/13)
 Bem-vindos ao Citsmart Versão 8.0.7.9 Esta versão apresenta os seguintes itens:
 
