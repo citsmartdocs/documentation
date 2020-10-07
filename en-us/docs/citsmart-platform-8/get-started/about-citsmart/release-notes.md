@@ -3,6 +3,15 @@ Description: Release notes, policies information, bug fixes and improvements in 
 
 # Release Notes
 
+## Version 8.0.7.11 (2020/08/17)
+Welcome to Citsmart Version 8.0.7.11. This version presents the following items:
+
+|Number|Type|Functionality|Description|
+|--------|---------|---------|---------|
+|4950|Fix|Ticket Management|Inclusion of html sanitization in the view of the filed description in the ticket screen|
+|4997|Fix|Ticket Management|Correction of e-mail sending through the e-mail box configured in the contract|
+|9503|Fix|Ticket Management|Correction of audit mapping. The “urgencylevel” column belongs to the “urgency” table|
+
 ## Version 8.0.7.10 (2020/07/27)
 Welcome to Citsmart Version 8.0.7.10 This version presents the following items:
 
