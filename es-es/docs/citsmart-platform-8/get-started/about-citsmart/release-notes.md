@@ -3,6 +3,21 @@ Description: Notas de release, correcciones de errores y mejoras en la CITSmart.
 
 # Notas de Release
 
+## Versión 8.0.7.10 (2020/07/27)
+Bienvenido a Citsmart Versión 8.0.7.10. Esta versión incluye los siguientes elementos:
+
+|Número|Tipo|Funcionalidad|Descripción|
+|--------|---------|---------|---------|
+|4633|Corrección|Gestión de Ticket|Corrección en apertura de tickets vía correo electrónico|
+|4875|Corrección|Simple|Se ajustó la vista de sprint vencida|
+|9154|Corrección|Sistema|Ajustes en la inclusión del registro de ChatUsers para evitar intentos con employeeId Nulo|
+|9157|Mejora|Sistema|LOGGER agregado en pantallas que permiten el acceso al banco e inclusión de nuevos handlers|
+|9160|Mejora|Gestión de Ticket|Rendimiento mejorado de la consulta SmartChat que comprueba los tickets para captura|
+|9195|Corrección|Sistema|Mantener autoCommit solo en operaciones de inserción, actualización y eliminación|
+|9212|Mejora|Sistema|Cambio de thread del sistema y mejor identificación en los registros de ejecución|
+|9313|Mejora|Gestión de Ticket|Inclusión del manejo de colas para la extracción de datos en "Búsqueda avanzada"|
+|9324|Mejora|Gestión de Ticket|Inclusión de búsqueda paginada de registros de la "Búsqueda Avanzada"|
+
 ## Versión 8.0.7.9 (2020/07/13)
 Bienvenido a Citsmart Versión 8.0.7.9 Esta versión incluye los siguientes elementos:
 
