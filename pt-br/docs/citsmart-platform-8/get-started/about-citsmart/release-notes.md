@@ -84,8 +84,7 @@ A versão apresentada possui a seguinte melhoria:
 
 |Número|Tipo|Funcionalidade|Descrição|
 |--------|---------|---------|---------|
-|9222|Melhoria|Gerência de Ticket|Criação da view materialized ‘employeecontract
-‘ para melhorar a performance do sistema ao buscar dados do empregado, contrato e seus grupos de atuação|
+|9222|Melhoria|Gerência de Ticket|Criação da view materialized ‘employeecontract' para melhorar a performance do sistema ao buscar dados do empregado, contrato e seus grupos de atuação|
 
 
 ## Versão 8.0.7.2 (2020/04/27)
