@@ -3,6 +3,90 @@ Description: Notas de release, correcciones de errores y mejoras en la CITSmart.
 
 # Notas de Release
 
+## Versión 8.0.7.9 (2020/07/13)
+Bienvenido a Citsmart Versión 8.0.7.9 Esta versión incluye los siguientes elementos:
+
+|Número|Tipo|Funcionalidad|Descripción|
+|--------|---------|---------|---------|
+|4861|Corrección|Gestión de Ticket|Corrección de duplicación de tickets al reclasificar|
+|4668|Corrección|Gestión de Ticket|Corrección de la duplicación de tareas de flujo en la delegación|
+|4553|Corrección|Gestión de Ticket|Corrección del 'desbordamiento' del campo de descripción en la vista de solución de respuesta|
+
+La versión presentada tiene la siguiente mejora:
+
+|Número|Tipo|Funcionalidad|Descripción|
+|--------|---------|---------|---------|
+|9222|Mejora|Gestión de Ticket|Creación de la view materialized 'employeecontract' para mejorar el desempeño del sistema en la búsqueda de datos sobre el empleado, contrato y sus grupos de desempeño|
+
+## Versión 8.0.7.2 (2020/04/27)
+Bienvenido a Citsmart Versión 8.0.7.1 Esta versión incluye los siguientes elementos:
+
+|Número|Tipo|Funcionalidad|Descripción|
+|--------|---------|---------|---------|
+|4291|Corrección|Gestión de Ticket/Workflow|Gestión de Ticket/Workflow|
+
+## Versión 8.0.7.1 (2020/04/27)
+Bienvenido a Citsmart Versión 8.0.7.1 Esta versión incluye los siguientes elementos:
+
+|Número|Tipo|Funcionalidad|Descripción|
+|--------|---------|---------|---------|
+|2967|Corrección|Auditoría|Inclusión de "feedback" de carga de datos en la paginación; Inclusión de autocompletar en los campos de Nombre Tabla y Usuario; Optimización de la búsqueda cuando los campos Usuario y Fecha (Inicio y Fin) se utilizan como filtro; Nota: 1. Los clientes que actualicen a esta versión de CITSmart también deben actualizar el Audit; 2. El autocompletado del campo Tabla de Nombres depende de la configuración del parámetro 32.|
+|3336|Corrección|Smart Portal/Registro de Cuestionario|El error se produjo al ordenar la lista con las respuestas al cuestionario. Debido a la forma en que se implementó, en algunos casos el sistema no pudo realizar pedidos y lanzó una excepción no controlada que impidió la creación de tickets.|
+|4280|Corrección|Gestión de Nivel de Servicio/SLA|Se verificó que el sistema estaba desconociendo el tiempo de suspensión del ticket porque los registros de suspensión no estaban siendo registrados en la tabla de control de sla.|
+
+## Versión 8.0.6 (2020/03/04)
+Bienvenido a Citsmart Versión 8.0.6. Esta versión incluye los siguientes elementos:
+
+|Número|Tipo|Funcionalidad|Descripción|
+|--------|---------|---------|---------|
+|5547|Mejora|CMDB|Permitir el descubrimiento de un ítem de configuración que no tiene un Agente Inventory|
+|5555|Mejora|Omnichannel|Integración de WhatsApp con Smartchat|
+|5594|Mejora|Gestión de Cambio|Agregar una vista de conflicto de jornada de IC y Servicios en RFC|
+|5928|Mejora|Gestión de proyecto|Ajuste en el campo de tiempo estimado del proyecto|
+|5930|Corrección|Gestión de Cambio|Cuando cerramos un cambio, la aplicación muestra las acciones no configuradas|
+|6215|Corrección|Gestión de Tickets|[ITSM 2558] Interrupción del parámetro 69|
+|6292|Mejora|Gestión de Conocimiento|Ajuste del Informe de la Base de Conocimientos|
+|6390|Mejora|Smart Report|[ITSM 2892] Actualización de bibliotecas para habilitar el uso del componente Select2 en Smart Report|
+|6400|Mejora|CMDB|Vincular la vista de mapa de CMDB en el Cambio|
+|6436|Corrección|Gestión de Cambio|Error en la Solicitud de Cambio al generar un "Informe de Registro de Ejecución"|
+|6439|Corrección|Sistema|Cuando se limpian los parámetros del número de tipo, el valor no se conserva en la base de datos|
+|6609|Mejora|Omnichannel|Upload de archivos en el ticket a través del SmartChat a Anuva|
+|6612|Mejora|Omnichannel|Presentación del menú carrusel en Smartchat para Anuva|
+|6614|Mejora|WebServices|Validación de Webservices CITSmart implementados para asistente virtual|
+|6622|Mejora|CMDB|Paginar la lista de IC en la pantalla de inicio del CMDB|
+|6649|Corrección|Gestión de Cambio|Error de traducción en la pantalla Análisis de Impacto y Riesgo en la Solicitud de Cambio|
+|6660|Mejora|Gestión de Tickets|Incluir los campos 'Causa' y 'Solución' en la sub-aplicación (del menú externo e interno)|
+|6662|Mejora|Omnichannel|Comunicación de Direct Message con CITSmart|
+|6668|Corrección|Gestión de Proyecto|Pantalla de Proyecto al crear un proyecto cuyo proceso es Gestión de Cambios en el campo Cambio, la ventana emergente no presenta los datos correctamente|
+|6738|Corrección|CMDB|Eliminación del campo Captura Agente. NET en el registro de Conexões Inventory|
+|6742|Corrección|Gestión de Tickets|Error al cambiar el SLA de un Ticket|
+|6743|Corrección|Gestión de Tickets|Ajuste en la visualización de tickets cancelados mediante token en el filtro de pantalla de tickets|
+|6744|Mejora|CMDB|Permita la edición abierta haciendo clic en el campo de detalles en el mapa de dibujo de IC|
+|6787|Corrección|Plantilla de Correo|No se pudieron mostrar las plantillas de correo electrónico paginado|
+|6825|Corrección|Gestión de Tickets|Ajuste de las labels de subticket en Español|
+|6866|Corrección|Gestión de Cambio|Ajustar la etiqueta emergente al agregar un servicio a una solicitud de cambio: idiomas portugués y español|
+|6878|Corrección|Gestión de Tickets|Al ver un ticket cancelado al realizar la búsqueda del filtro, la aplicación genera un mensaje de error|
+|6891|Corrección|CMDB|Al colocar TimeZone en un IC / grupo, no está guardando|
+|6897|Mejora|Webservice|Validación del WebService de consumo en la base de conocimientos|
+|6953|Mejora|Gestión de Cambio|Ocultar iconos de Servicio y IC en el registro de cambios|
+|6956|Corrección|Sistema|Error al intentar adjuntar el archivo con la ruta de parámetro 44 incorrecta|
+|6957|Corrección|Sistema|Corrección del cierre de componentes de fecha|
+|6966|Corrección|Gestión de Tickets|El filtro de ticket cerrado en la pantalla del ticket no muestra el ticket creado y cerrado para el día actual|
+|6970|Corrección|Gestión de Tickets|Kanban no presenta los iconos de Adjuntos, Ítems de Configuración, sub-tickets, Tickets relacionado|
+|7043|Corrección|Smart Portal|En el historial de solicitudes en Smart Portal, la información de los comentarios está desalineada y sin identificar quién respondió un comentario|
+|7046|Corrección|Administración de Usuarios|Error en el log cuando ingresamos con un usuario creado por el Profile|
+|7053|Corrección|Gestión de Conocimiento|Conocimiento archivado cambia su situación al guardar|
+|7057|Corrección|Gestión de Conocimiento|Envío incorrecto de un mensaje al usuario cuando "Enviar para aprobación" con las partes interesadas para recibir todas las notificaciones|
+|7059|Corrección|CMDB|Ajuste en la presentación de la información de exportación del CMDB|
+
+**Paquete(s) liberado(s) en esta versión:**
+* [x] CITSmart Enterprise 8.0.6
+* [x] CITSmart Neuro 1.3.4.0
+
+**Directrices para actualización:**
+- Será necesario activar la ejecución del procesamiento batch "Process Working Hours Calendar", luego de la actualización para aprovechar la mejora "5594 - Agregar vista de conflictos de jornada IC y Servicios en RFC"
+- Es necesario actualizar Neuro a 1.3.4 para mantener la compatibilidad con la versión 8.0.6
+
 ## Versión 8.0.5.4 (2020/02/28)
 Bienvenido a Citsmart Versión 8.0.5.4. Esta ver sión presenta las siguientes mejoras:
 
