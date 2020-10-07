@@ -3,7 +3,29 @@ Description: Release notes, policies information, bug fixes and improvements in 
 
 # Release Notes
 
-## Versão 8.0.7.1 (2020/04/27)
+## Version 8.0.7.9 (2020/07/13)
+Welcome to Citsmart Version 8.0.7.9 This version presents the following items:
+
+|Number|Type|Functionality|Description|
+|--------|---------|---------|---------|
+|4861|Fix|Ticket Management|Correction of ticket duplication when reclassifying|
+|4668|Fix|Ticket Management|Correction of duplication of flow task in delegation|
+|4553|Fix|Ticket Management|Correction of the 'overflow' of the description field in the response solution view|
+
+The presented version has the following improvement:
+
+|Number|Type|Functionality|Description|
+|--------|---------|---------|---------|
+|9222|Improvement|Ticket Management|Creation of the materialized view 'employeecontract' to improve the performance of the system when searching for data on the employee, contract and its performance groups|
+
+## Version 8.0.7.2 (2020/04/27)
+Welcome to Citsmart Version 8.0.7.1 This version presents the following items:
+
+|Number|Type|Functionality|Description|
+|--------|---------|---------|---------|
+|4291|Fix|Ticket Management/Workflow|Ticket Management/Workflow|
+
+## Version 8.0.7.1 (2020/04/27)
 Welcome to Citsmart Version 8.0.7.1 This version presents the following items:
 
 |Number|Type|Functionality|Description|
@@ -12,7 +34,7 @@ Welcome to Citsmart Version 8.0.7.1 This version presents the following items:
 |3336|Fix|Smart Portal/Questionnaire registration|The error was occurring when sorting the list with the responses to the questionnaire. Due to the way it was implemented, in some cases the system was not able to order and launched an unhandled exception that prevented ticket creation.|
 |4280|Fix|Service Level Management/SLA|It was verified that the system was disregarding the ticket suspension time because the suspension records were not being recorded in the sla control table.|
 
-## Versão 8.0.6 (2020/03/04)
+## Version 8.0.6 (2020/03/04)
 Welcome to Citsmart Version 8.0.6. This version presents the following items:
 
 |Number|Type|Functionality|Description|
