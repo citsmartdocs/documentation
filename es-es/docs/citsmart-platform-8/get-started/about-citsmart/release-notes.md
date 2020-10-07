@@ -3,6 +3,15 @@ Description: Notas de release, correcciones de errores y mejoras en la CITSmart.
 
 # Notas de Release
 
+## Versión 8.0.7.11 (2020/08/17)
+Bienvenido a Citsmart Versión 8.0.7.11. Esta versión incluye los siguientes elementos:
+
+|Número|Tipo|Funcionalidad|Descripción|
+|--------|---------|---------|---------|
+|4950|Corrección|Gestión de Ticket|Inclusión de desinfección html en la vista de campo de descripción del campo del ticket|
+|4997|Corrección|Gestión de Ticket|Corrección de envío de correo electrónico a través del buzón de correo configurado en el contrato|
+|9503|Corrección|Gestión de Ticket|Corrección del mapeo de auditoría. La columna "nivelurgencia" pertenece a la tabla "urgencia"|
+
 ## Versión 8.0.7.10 (2020/07/27)
 Bienvenido a Citsmart Versión 8.0.7.10. Esta versión incluye los siguientes elementos:
 
