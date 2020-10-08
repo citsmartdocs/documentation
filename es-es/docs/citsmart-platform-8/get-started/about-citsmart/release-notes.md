@@ -3,6 +3,23 @@ Description: Notas de release, correcciones de errores y mejoras en la CITSmart.
 
 # Notas de Release
 
+## Versión 8.0.7.12 (2020/08/12)
+Bienvenido a Citsmart Versión 8.0.7.12. Esta versión incluye los siguientes elementos:
+
+|Número|Tipo|Funcionalidad|Descripción|
+|--------|---------|---------|---------|
+|9201|Mejora|Gestión de Ticket|Inclusión de la flag en el ítem de trabajo del flujo para la búsqueda avanzada|
+|9297|Corrección|Gestión de Contrato|Se eliminó la restauración de proveedores y clientes dentro de la iteración del contrato|
+|9509|Mejora|Gestión de Ticket|Inclusión de tratamiento cuando ya existe un "chatUser"|
+|9527|Mejora|Sistema|Inclusión de parámetro en ".cfg" para subir sin / con soporte para procesamiento de jobs|
+|9570|Corrección|Gestión de Ticket|Corrección del error al visualizar el flujo en un Ticket|
+|9579|Corrección|Gestión de Problema|Corrección del error al resolver un Problema|
+|9585|Corrección|Sistema|Eliminación de consultas N + 1 para recuperar cantidades de listados de tickets|
+
+|Número|Tipo|Funcionalidad|Descripción|
+|--------|---------|---------|---------|
+|9550|Mejora|Neuro|Configuración de los parámetros de ECM para el tamaño del archivo adjunto en Neuro|
+
 ## Versión 8.0.7.11 (2020/08/17)
 Bienvenido a Citsmart Versión 8.0.7.11. Esta versión incluye los siguientes elementos:
 
