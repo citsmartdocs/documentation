@@ -3,6 +3,28 @@ Description: Release notes, policies information, bug fixes and improvements in 
 
 # Release Notes
 
+## Version 8.0.7.13 (2020/08/20)
+Welcome to Citsmart Version 8.0.7.13. This version presents the following items:
+
+|Number|Type|Functionality|Description|
+|--------|---------|---------|---------|
+|4930|Fix|Ticket Management|Correction of calculation of capture time and delay time in advanced search.|
+|5002|Fix|Project Management|Failed to search for project registration roles|
+|5089|Fix|Ticket Management|Error reading the requester's email|
+|9434|Improvement|System|Remove access to application data access tools|
+|9504|Improvement|System|Create Quartz Job to update materialized view employeecontract_view, regarding contract expiration|
+|9583|Improvement|Ticket Management|Change when searching for permissions in the ticket listing|
+|9584|Improvement|Ticket Management|Change the time when searching for executing groups in the ticket listing (\*)Adjustment made|
+|9585|Fix|System|Removal of N+1 queries to retrieve ticket listing quantities|
+|9587|Improvement|System|Improving error messages triggered in the log regarding ticket requester notification on SmartChat|
+|9589|Fix|System|Neuro lookup component clear error|
+|9594|Fix|Change Management|Error creating a change on account of the flac Active created in the item itemwork (\*)Adjustment made|
+|9607|Fix|Ticket Management|Failure in the advanced search|
+
+|Number|Type|Functionality|Description|
+|--------|---------|---------|---------|
+|9207|Fix|Neuro|Correction of errors that occur in Neuro when the environment is clustered|
+
 ## Version 8.0.7.12 (2020/08/12)
 Welcome to Citsmart Version 8.0.7.12. This version presents the following items:
 
