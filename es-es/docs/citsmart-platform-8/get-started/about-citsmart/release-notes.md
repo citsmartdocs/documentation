@@ -3,6 +3,28 @@ Description: Notas de release, correcciones de errores y mejoras en la CITSmart.
 
 # Notas de Release
 
+## Versión 8.0.7.13 (2020/08/20)
+Bienvenido a Citsmart Versión 8.0.7.13. Esta versión incluye los siguientes elementos:
+
+|Número|Tipo|Funcionalidad|Descripción|
+|--------|---------|---------|---------|
+|4930|Corrección|Gestión de Ticket|Corrección de cálculo de tiempo de captura y tiempo de retardo en búsqueda avanzada.|
+|5002|Corrección|Gestión de Proyecto|Error al buscar los documentos de registro del proyecto|
+|5089|Corrección|Gestión de Ticket|Error al leer el correo electrónico del solicitante|
+|9434|Mejora|Sistema|Eliminar el acceso a las herramientas de acceso a datos de la aplicación|
+|9504|Mejora|Sistema|Crear Quartz Job para actualizar la vista materializada employeecontract_view, con respecto al vencimiento del contrato|
+|9583|Mejora|Gestión de Ticket|Cambiar al buscar permisos en la lista de tickets|
+|9584|Mejora|Gestión de Ticket|Cambiar el momento al buscar grupos en ejecución en el listado de tickets (\*)Ajuste realizado|
+|9585|Corrección|Sistema|Eliminación de consultas N+1 para recuperar cantidades de listados de tickets|
+|9587|Mejora|Sistema|Mejora de los mensajes de error activados en el registro con respecto a la notificación del solicitante de tickets en SmartChat|
+|9589|Corrección|Sistema|Error de clear del componente de lookup Neuro|
+|9594|Corrección|Gestión de Cambio|Error al crear un cambio debido al flac Active creado en el artículo itemtrabajo (\*)Ajuste realizado|
+|9607|Corrección|Gestión de Ticket|Error al recuperar la búsqueda avanzada|
+
+|Número|Tipo|Funcionalidad|Descripción|
+|--------|---------|---------|---------|
+|9207|Corrección|Neuro|Corrección de errores que ocurren en Neuro cuando el entorno está agrupado|
+
 ## Versión 8.0.7.12 (2020/08/12)
 Bienvenido a Citsmart Versión 8.0.7.12. Esta versión incluye los siguientes elementos:
 
