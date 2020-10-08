@@ -3,6 +3,23 @@ Description: Release notes, policies information, bug fixes and improvements in 
 
 # Release Notes
 
+## Version 8.0.7.12 (2020/08/12)
+Welcome to Citsmart Version 8.0.7.12. This version presents the following items:
+
+|Number|Type|Functionality|Description|
+|--------|---------|---------|---------|
+|9201|Improvement|Ticket Management|Flag inclusion in the workflow item for advanced search|
+|9297|Fix|Contract Management|Removed supplier and customer restore within contract iteration|
+|9509|Improvement|Ticket Management|Inclusion of treatment when a “chatUser” already exists|
+|9527|Improvement|System|Inclusion of parameter in “.cfg” to upload without/with support for job processing|
+|9570|Fix|Ticket Management|Correction of the error when viewing flow in a Ticket|
+|9579|Fix|Problem Management|Correction of the error when solving a Problem|
+|9585|Fix|System|Removal of N+1 queries to retrieve ticket listing quantities|
+
+|Number|Type|Functionality|Description|
+|--------|---------|---------|---------|
+|9550|Improvement|Neuro|Configuration of ECM parameters for attachment size in Neuro|
+
 ## Version 8.0.7.11 (2020/08/17)
 Welcome to Citsmart Version 8.0.7.11. This version presents the following items:
 
