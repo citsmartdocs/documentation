@@ -3,6 +3,13 @@ Description: Release notes, policies information, bug fixes and improvements in 
 
 # Release Notes
 
+## Version 8.0.7.14 (2020/08/27)
+Welcome to Citsmart Version 8.0.7.14. This version presents the following items:
+
+|Number|Type|Functionality|Description|
+|--------|---------|---------|---------|
+|9635|Fix|Ticket Management|Correction of duplicity in the advanced search resulting from the reopening/reclassification|
+
 ## Version 8.0.7.13 (2020/08/20)
 Welcome to Citsmart Version 8.0.7.13. This version presents the following items:
 
