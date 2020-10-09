@@ -3,6 +3,13 @@ Description: Notas de release, correcciones de errores y mejoras en la CITSmart.
 
 # Notas de Release
 
+## Versión 8.0.7.14 (2020/08/27)
+Bienvenido a Citsmart Versión 8.0.7.14. Esta versión incluye los siguientes elementos:
+
+|Número|Tipo|Funcionalidad|Descripción|
+|--------|---------|---------|---------|
+|9635|Corrección|Gestión de Ticket|Corrección de duplicidad en la búsqueda avanzada resultante de la reapertura/reclasificación|
+
 ## Versión 8.0.7.13 (2020/08/20)
 Bienvenido a Citsmart Versión 8.0.7.13. Esta versión incluye los siguientes elementos:
 
