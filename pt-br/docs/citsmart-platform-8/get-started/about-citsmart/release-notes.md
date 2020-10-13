@@ -3,13 +3,6 @@ Description: Notas de release, correções de erros e melhorias no CITSmart.
 
 # Notas de Release
 
-## Versão 8.0.7.14 (2020/08/27)
-Bem-vindos ao Citsmart Versão 8.0.7.14 Esta versão apresenta os seguintes itens:
-
-|Número|Tipo|Funcionalidade|Descrição|
-|--------|---------|---------|---------|
-|9635|Corretiva|Gerência de Ticket|Correção da duplicidade na pesquisa avançada oriunda da reabertura/reclassificação|
-
 ## Versão 8.0.7.13 (2020/08/20)
 Bem-vindos ao Citsmart Versão 8.0.7.13 Esta versão apresenta os seguintes itens:
 
@@ -32,22 +25,6 @@ Bem-vindos ao Citsmart Versão 8.0.7.13 Esta versão apresenta os seguintes iten
 |--------|---------|---------|---------|
 |9207|Corretiva|Neuro|Correção dos erros que ocorrem em Neuro quando o ambiente é clusterizado|
 
-## Versão 8.0.7.12 (2020/08/12)
-Bem-vindos ao Citsmart Versão 8.0.7.12 Esta versão apresenta os seguintes itens:
-
-|Número|Tipo|Funcionalidade|Descrição|
-|--------|---------|---------|---------|
-|9201|Melhoria|Gerência de Ticket|Inclusão flag no item de trabalho do fluxo para busca avançada|
-|9297|Corretiva|Gerência de Contrato|Removido restore de fornecedor e cliente dentro de iteração de contratos|
-|9509|Melhoria|Gerência de Ticket|Inclusão de tratamento quando um “chatUser” já existir|
-|9527|Melhoria|Sistema|Inclusão de parâmetro no “.cfg” para subir sem/com suporte a processamento de jobs|
-|9570|Corretiva|Gerência de Ticket|Correção do erro ao visualizar fluxo em um Ticket|
-|9579|Corretiva|Gerência de Problema|Correção do erro ao resolver um Problema|
-|9585|Corretiva|Sistema|Remoção das N+1 consultas para recuperar os quantitativos da listagem de tickets|
-
-|Número|Tipo|Funcionalidade|Descrição|
-|--------|---------|---------|---------|
-|9550|Melhoria|Neuro|Configuração de parâmetros ECM para tamanho do anexo no Neuro|
 
 ## Versão 8.0.7.11 (2020/08/17)
 Bem-vindos ao Citsmart Versão 8.0.7.11 Esta versão apresenta os seguintes itens:
